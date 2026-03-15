@@ -7,3 +7,5 @@ statsmodels
 xgboost
 shap
 scipy
+streamlit
+plotly

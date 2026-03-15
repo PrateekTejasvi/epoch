@@ -1,0 +1,24 @@
+{
+  "input_csv":"data\/Students Social Media Addiction.csv",
+  "rows_raw":705,
+  "rows_clean":705,
+  "columns_clean":[
+    "Student_ID",
+    "Age",
+    "Gender",
+    "Academic_Level",
+    "Country",
+    "Avg_Daily_Usage_Hours",
+    "Most_Used_Platform",
+    "Affects_Academic_Performance",
+    "Sleep_Hours_Per_Night",
+    "Mental_Health_Score",
+    "Relationship_Status",
+    "Conflicts_Over_Social_Media",
+    "Addicted_Score",
+    "Country_Grouped",
+    "Academic_Harm_Binary"
+  ],
+  "analysis_base":"outputs\/processed\/analysis_base.csv",
+  "model_matrix":"outputs\/processed\/model_matrix.csv"
+}

@@ -1,0 +1,3 @@
+model,rmse
+linear_regression,0.23816437647268573
+gradient_boosting_fallback,0.1922914304835064

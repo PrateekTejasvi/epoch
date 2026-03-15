@@ -1,0 +1,83 @@
+{
+  "config": {
+    "input_csv": "data/Students Social Media Addiction.csv",
+    "output_dir": "outputs",
+    "processed_dir": "outputs/processed",
+    "tables_dir": "outputs/tables",
+    "figures_dir": "outputs/figures",
+    "models_dir": "outputs/models",
+    "reports_dir": "outputs/reports",
+    "cluster_k": "4",
+    "bootstrap_iters": "2000",
+    "random_seed": "42"
+  },
+  "preprocessing": {
+    "analysis_base": "outputs/processed/analysis_base.csv",
+    "model_matrix": "outputs/processed/model_matrix.csv",
+    "metadata": "outputs/processed/preprocessing_metadata.json"
+  },
+  "harm": {
+    "weights": {
+      "w1_mental_health_harm": 0.2571016042112665,
+      "w2_sleep_harm": 0.2248549589900616,
+      "w3_conflict_harm": 0.2541869450510988,
+      "w4_addiction_harm": 0.26385649174757303,
+      "pca_explained_variance_ratio": 0.868007812166443
+    },
+    "harm_weights_table": "outputs/tables/harm_weights.csv",
+    "harm_distribution_figure": "outputs/figures/harm_index_distribution.png"
+  },
+  "clustering": {
+    "silhouette_table": "outputs/tables/silhouette_by_k.csv",
+    "centroids_table": "outputs/tables/persona_centroids.csv",
+    "persona_distribution_table": "outputs/tables/persona_distribution.csv",
+    "cluster_persona_mapping_table": "outputs/tables/cluster_persona_mapping.csv",
+    "silhouette_figure": "outputs/figures/silhouette_curve.png",
+    "persona_scatter_figure": "outputs/figures/persona_cluster_scatter.png",
+    "best_silhouette_k": 2
+  },
+  "rq_results": {
+    "rq1": {
+      "rq1_model_coefficients": "outputs/tables/rq1_model_coefficients.csv",
+      "rq1_platform_effects": "outputs/tables/rq1_platform_effects.csv",
+      "rq1_pairwise_tests": "outputs/tables/rq1_platform_pairwise_fdr.csv",
+      "rq1_platform_means": "outputs/tables/rq1_platform_mean_harm.csv",
+      "rq1_platform_figure": "outputs/figures/rq1_platform_harm_fingerprint.png"
+    },
+    "rq2": {
+      "rq2_model_coefficients": "outputs/tables/rq2_model_coefficients.csv",
+      "rq2_interaction_terms": "outputs/tables/rq2_interaction_terms.csv",
+      "rq2_predictions": "outputs/tables/rq2_predicted_lines.csv",
+      "rq2_figure": "outputs/figures/rq2_usage_academic_interaction.png"
+    },
+    "rq3": {
+      "rq3_mediation_table": "outputs/tables/rq3_sleep_mediation.csv",
+      "rq3_bootstrap_distribution_table": "outputs/tables/rq3_bootstrap_distribution.csv",
+      "rq3_figure": "outputs/figures/rq3_mediation_bootstrap.png",
+      "rq3_primary_indirect_effect": 0.1050688642074942
+    },
+    "rq4": {
+      "rq4_model_coefficients": "outputs/tables/rq4_model_coefficients.csv",
+      "rq4_gender_slopes": "outputs/tables/rq4_gender_slopes.csv",
+      "rq4_gender_predictions": "outputs/tables/rq4_gender_predictions.csv",
+      "rq4_gender_contrasts": "outputs/tables/rq4_gender_contrasts.csv",
+      "rq4_figure": "outputs/figures/rq4_addiction_by_gender.png"
+    }
+  },
+  "evaluation": {
+    "rmse_table": "outputs/tables/evaluation_rmse.csv",
+    "group_mae_table": "outputs/tables/evaluation_group_mae.csv",
+    "linear_rmse": 0.23816437647268573,
+    "xgb_rmse": 0.1922914304835064,
+    "best_model": "gradient_boosting_fallback",
+    "xgb_model_name": "gradient_boosting_fallback",
+    "model_paths": {
+      "linear": "outputs/models/linear_regression_harm_index.pkl",
+      "xgb": "outputs/models/xgb_harm_index.pkl"
+    }
+  },
+  "outputs": {
+    "analysis_enriched": "outputs/processed/analysis_enriched.csv",
+    "policy_report": "outputs/reports/policy_recommendations.md"
+  }
+}

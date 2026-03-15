@@ -1,0 +1,7 @@
+Group,Count,MAE
+Male | Undergraduate,16,0.20786385049703415
+Female | Graduate,12,0.1453514767171913
+Male | Graduate,66,0.14189606462439638
+Female | Undergraduate,73,0.13700225579843903
+Female | High School,4,0.09646140062815095
+Male | High School,6,0.06917080652743002

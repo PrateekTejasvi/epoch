@@ -1,0 +1,706 @@
+Student_ID,Age,Gender,Academic_Level,Country,Avg_Daily_Usage_Hours,Most_Used_Platform,Affects_Academic_Performance,Sleep_Hours_Per_Night,Mental_Health_Score,Relationship_Status,Conflicts_Over_Social_Media,Addicted_Score,Country_Grouped,Academic_Harm_Binary,Mental_Health_Harm_Component,Sleep_Harm_Component,Conflict_Harm_Component,Addiction_Harm_Component,Harm_Index,Harm_Index_100,Cluster_ID,Persona
+1,19,Female,Undergraduate,Bangladesh,5.2,Instagram,Yes,6.5,6,In Relationship,3,8,Bangladesh,1,4,1.5,3,8,0.42647777277588145,64.12474099034564,2,The Social Warrior
+2,22,Male,Graduate,India,2.1,Twitter,No,7.5,8,Single,0,3,India,0,2,0.5,0,3,-1.8672505424569592,11.458248589932369,3,The Balanced User
+3,20,Female,Undergraduate,USA,6.0,TikTok,Yes,5.0,5,Complicated,4,9,USA,1,5,3.0,4,9,1.3907199154646166,86.26478745653726,0,The Doomscroller
+4,18,Male,High School,UK,3.0,YouTube,No,7.0,7,Single,1,4,UK,0,3,1.0,1,4,-1.1026933547491338,29.013311693388022,3,The Balanced User
+5,21,Male,Graduate,Canada,4.5,Facebook,Yes,6.0,6,In Relationship,2,7,Canada,1,4,2.0,2,7,0.09443017300677466,56.50056759819745,2,The Social Warrior
+6,19,Female,Undergraduate,Australia,7.2,Instagram,Yes,4.5,4,Complicated,5,9,Other,1,6,3.5,5,9,1.9889151718936278,100.0,0,The Doomscroller
+7,23,Male,Graduate,Germany,1.5,LinkedIn,No,8.0,9,Single,0,2,Other,0,1,0.0,0,2,-2.3662795841840367,0.0,3,The Balanced User
+8,20,Female,Undergraduate,Brazil,5.8,Snapchat,Yes,6.0,6,In Relationship,2,8,Other,1,4,2.0,2,8,0.2607921042855888,60.32041815819036,2,The Social Warrior
+9,18,Male,High School,Japan,4.0,TikTok,No,6.5,7,Single,1,5,Japan,0,3,1.5,1,5,-0.8364889459798647,35.125653934748904,1,The Quiet Addict
+10,21,Female,Graduate,South Korea,3.3,Instagram,No,7.0,7,In Relationship,1,4,Other,0,3,1.0,1,4,-1.1026933547491338,29.013311693388022,3,The Balanced User
+11,19,Male,Undergraduate,France,4.8,Snapchat,Yes,6.2,5,Complicated,3,7,France,1,5,1.7999999999999998,3,7,0.5528459609491488,67.02629178774502,2,The Social Warrior
+12,20,Female,Undergraduate,Spain,5.5,TikTok,Yes,5.8,6,In Relationship,2,8,Spain,1,4,2.2,2,8,0.30072909528177083,61.23741483073755,2,The Social Warrior
+13,22,Male,Graduate,Italy,2.8,LinkedIn,No,7.2,8,Single,1,4,Italy,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+14,18,Female,High School,Mexico,6.5,Instagram,Yes,5.5,5,Single,4,9,Mexico,1,5,2.5,4,9,1.2908774379741617,83.97229577516929,0,The Doomscroller
+15,21,Male,Undergraduate,Russia,3.7,YouTube,No,6.8,7,In Relationship,2,5,Russia,0,3,1.2000000000000002,2,5,-0.63086628649339,39.84697343945139,1,The Quiet Addict
+16,20,Female,Undergraduate,China,4.2,TikTok,Yes,6.0,6,Complicated,3,7,China,1,4,2.0,3,7,0.35995831898752223,62.59738211172072,2,The Social Warrior
+17,24,Male,Graduate,Sweden,2.0,LinkedIn,No,7.8,8,Single,0,3,Other,0,2,0.20000000000000018,0,3,-1.927156028951232,10.082753581111588,3,The Balanced User
+18,19,Female,High School,Norway,5.0,Instagram,Yes,5.7,5,In Relationship,3,8,Other,1,5,2.3,3,8,0.8190503697184178,73.13863402910592,2,The Social Warrior
+19,21,Male,Undergraduate,Denmark,3.5,Facebook,No,6.7,7,Single,1,5,Denmark,0,3,1.2999999999999998,1,5,-0.8764259369760468,34.20865726220171,1,The Quiet Addict
+20,20,Female,Undergraduate,Netherlands,4.7,Snapchat,Yes,5.9,6,Complicated,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+21,18,Male,High School,Belgium,5.3,TikTok,Yes,5.5,5,Single,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+22,23,Female,Graduate,Switzerland,2.5,LinkedIn,No,7.3,8,In Relationship,1,4,Switzerland,0,2,0.7000000000000002,1,4,-1.3954234742012153,22.291910335995745,3,The Balanced User
+23,19,Male,Undergraduate,Austria,4.9,Instagram,Yes,5.8,6,Complicated,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+24,20,Female,Undergraduate,Portugal,5.7,TikTok,Yes,5.4,5,Single,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+25,22,Male,Graduate,Greece,3.2,Facebook,No,6.9,7,In Relationship,2,5,Other,0,3,1.0999999999999996,2,5,-0.6508347819914811,39.3884751031778,1,The Quiet Addict
+26,19,Female,High School,Ireland,6.1,Instagram,Yes,5.2,5,Complicated,4,9,Ireland,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+27,21,Male,Undergraduate,New Zealand,3.8,YouTube,No,6.6,7,Single,1,5,Other,0,3,1.4000000000000004,1,5,-0.8564574414779557,34.667155598475304,1,The Quiet Addict
+28,20,Female,Undergraduate,Singapore,4.4,TikTok,Yes,5.9,6,In Relationship,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+29,24,Male,Graduate,Malaysia,2.2,LinkedIn,No,7.4,8,Single,0,3,Other,0,2,0.5999999999999996,0,3,-1.8472820469588682,11.916746926205967,3,The Balanced User
+30,19,Female,High School,Thailand,5.9,Instagram,Yes,5.3,5,Complicated,4,8,Other,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+31,21,Male,Undergraduate,Vietnam,3.6,Facebook,No,6.7,7,Single,1,5,Other,0,3,1.2999999999999998,1,5,-0.8764259369760468,34.20865726220171,1,The Quiet Addict
+32,20,Female,Undergraduate,Philippines,4.8,Snapchat,Yes,5.7,6,In Relationship,3,7,Other,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+33,18,Male,High School,Indonesia,5.4,TikTok,Yes,5.4,5,Complicated,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+34,23,Female,Graduate,Taiwan,2.6,LinkedIn,No,7.2,8,Single,1,4,Other,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+35,19,Male,Undergraduate,Hong Kong,4.7,Instagram,Yes,5.8,6,In Relationship,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+36,20,Female,Undergraduate,Turkey,5.6,TikTok,Yes,5.5,5,Complicated,4,8,Turkey,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+37,22,Male,Graduate,Israel,3.1,Facebook,No,6.8,7,Single,1,5,Other,0,3,1.2000000000000002,1,5,-0.8963944324741376,33.75015892592811,1,The Quiet Addict
+38,19,Female,High School,UAE,6.2,Instagram,Yes,5.1,5,In Relationship,4,9,Other,1,5,2.9000000000000004,4,9,1.3707514199665256,85.80628912026366,0,The Doomscroller
+39,21,Male,Undergraduate,Egypt,3.9,YouTube,No,6.5,7,Complicated,2,6,Other,0,3,1.5,2,6,-0.404598868720303,45.042319008265075,1,The Quiet Addict
+40,20,Female,Undergraduate,Morocco,4.5,TikTok,Yes,5.8,6,Single,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+41,24,Male,Graduate,South Africa,2.3,LinkedIn,No,7.3,8,In Relationship,1,4,Other,0,2,0.7000000000000002,1,4,-1.3954234742012153,22.291910335995745,3,The Balanced User
+42,19,Female,High School,Nigeria,5.8,Instagram,Yes,5.4,5,Complicated,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+43,21,Male,Undergraduate,Kenya,3.7,Facebook,No,6.6,7,Single,2,5,Other,0,3,1.4000000000000004,2,5,-0.5909292954972081,40.76397011199858,1,The Quiet Addict
+44,20,Female,Undergraduate,Ghana,4.6,Snapchat,Yes,5.7,6,In Relationship,3,7,Other,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+45,18,Male,High School,Argentina,5.5,TikTok,Yes,5.3,5,Single,4,8,Other,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+46,23,Female,Graduate,Chile,2.7,LinkedIn,No,7.1,8,Complicated,1,4,Other,0,2,0.9000000000000004,1,4,-1.3554864832050333,23.208907008542933,3,The Balanced User
+47,19,Male,Undergraduate,Colombia,4.8,Instagram,Yes,5.9,6,In Relationship,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+48,20,Female,Undergraduate,Peru,5.5,TikTok,Yes,5.6,5,Single,4,8,Other,1,5,2.4000000000000004,4,8,1.1045470111972566,79.69394687890278,0,The Doomscroller
+49,22,Male,Graduate,Venezuela,3.3,Facebook,No,6.7,7,In Relationship,2,5,Other,0,3,1.2999999999999998,2,5,-0.6108977909952992,40.30547177572498,1,The Quiet Addict
+50,19,Female,High School,Ecuador,6.3,Instagram,Yes,5.2,5,Complicated,4,9,Other,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+51,21,Male,Undergraduate,Uruguay,3.8,YouTube,No,6.4,7,Single,2,6,Other,0,3,1.5999999999999996,2,6,-0.38463037322221205,45.500817344538675,1,The Quiet Addict
+52,20,Female,Undergraduate,Paraguay,4.7,TikTok,Yes,5.8,6,In Relationship,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+53,24,Male,Graduate,Bolivia,2.4,LinkedIn,No,7.2,8,Complicated,1,4,Other,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+54,19,Female,High School,Costa Rica,5.7,Instagram,Yes,5.5,5,Single,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+55,21,Male,Undergraduate,Panama,3.6,Facebook,No,6.5,7,In Relationship,2,5,Other,0,3,1.5,2,5,-0.5709607999991172,41.222468448272174,1,The Quiet Addict
+56,20,Female,Undergraduate,Jamaica,4.9,Snapchat,Yes,5.6,6,Complicated,3,7,Other,1,4,2.4000000000000004,3,7,0.4398323009798863,64.4313754568151,2,The Social Warrior
+57,18,Male,High School,Trinidad,5.6,TikTok,Yes,5.2,5,Single,4,8,Other,1,5,2.8,4,8,1.1844209931896204,81.52794022399716,0,The Doomscroller
+58,23,Female,Graduate,Bahamas,2.8,LinkedIn,No,7.0,8,In Relationship,1,4,Other,0,2,1.0,1,4,-1.3355179877069423,23.66740534481653,3,The Balanced User
+59,19,Male,Undergraduate,Iceland,4.6,Instagram,Yes,5.9,6,Complicated,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+60,20,Female,Undergraduate,Finland,5.4,TikTok,Yes,5.7,5,Single,4,8,Other,1,5,2.3,4,8,1.0845785156991654,79.23544854262919,0,The Doomscroller
+61,22,Male,Graduate,Poland,3.1,Facebook,No,7.1,7,Single,1,5,Poland,0,3,0.9000000000000004,1,5,-0.9562999189684105,32.374663917107334,3,The Balanced User
+62,19,Female,Undergraduate,Romania,5.6,Instagram,Yes,5.6,5,In Relationship,3,8,Other,1,5,2.4000000000000004,3,8,0.8390188652165089,73.59713236537951,0,The Doomscroller
+63,20,Male,Undergraduate,Hungary,4.2,TikTok,Yes,6.0,6,Complicated,3,7,Other,1,4,2.0,3,7,0.35995831898752223,62.59738211172072,2,The Social Warrior
+64,18,Female,High School,Czech Republic,6.1,Snapchat,Yes,5.2,4,Single,4,9,Other,1,6,2.8,4,9,1.5836075574262432,90.69369713256155,0,The Doomscroller
+65,23,Male,Graduate,Slovakia,2.3,LinkedIn,No,7.4,8,In Relationship,1,3,Other,0,2,0.5999999999999996,1,3,-1.5817539009781205,18.01356143972924,3,The Balanced User
+66,21,Female,Undergraduate,Croatia,4.8,Instagram,Yes,5.8,6,Single,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+67,20,Male,Undergraduate,Serbia,3.9,YouTube,No,6.5,7,Complicated,2,6,Other,0,3,1.5,2,6,-0.404598868720303,45.042319008265075,1,The Quiet Addict
+68,19,Female,High School,Slovenia,5.7,TikTok,Yes,5.4,5,In Relationship,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+69,22,Male,Graduate,Bulgaria,2.8,LinkedIn,No,7.2,8,Single,1,4,Other,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+70,20,Female,Undergraduate,Estonia,4.5,Instagram,Yes,5.9,6,Complicated,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+71,18,Male,High School,Latvia,5.4,Snapchat,Yes,5.5,5,Single,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+72,21,Female,Graduate,Lithuania,3.2,Facebook,No,6.8,7,In Relationship,2,5,Other,0,3,1.2000000000000002,2,5,-0.63086628649339,39.84697343945139,1,The Quiet Addict
+73,19,Male,Undergraduate,Ukraine,4.9,TikTok,Yes,5.7,6,Complicated,3,7,Other,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+74,20,Female,Undergraduate,Moldova,5.8,Instagram,Yes,5.3,5,Single,4,8,Other,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+75,23,Male,Graduate,Belarus,2.5,LinkedIn,No,7.3,8,In Relationship,1,4,Other,0,2,0.7000000000000002,1,4,-1.3954234742012153,22.291910335995745,3,The Balanced User
+76,21,Female,Undergraduate,Kazakhstan,4.6,Snapchat,Yes,5.8,6,Single,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+77,19,Male,High School,Uzbekistan,5.5,TikTok,Yes,5.4,5,Complicated,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+78,22,Female,Graduate,Kyrgyzstan,2.9,Facebook,No,7.0,7,In Relationship,2,5,Other,0,3,1.0,2,5,-0.670803277489572,38.9299767669042,1,The Quiet Addict
+79,20,Male,Undergraduate,Tajikistan,4.7,YouTube,Yes,5.9,6,Single,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+80,18,Female,High School,Armenia,5.9,Instagram,Yes,5.2,5,Complicated,4,9,Other,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+81,21,Male,Graduate,Georgia,3.0,LinkedIn,No,7.1,8,In Relationship,1,4,Other,0,2,0.9000000000000004,1,4,-1.3554864832050333,23.208907008542933,3,The Balanced User
+82,19,Female,Undergraduate,Azerbaijan,4.8,TikTok,Yes,5.7,6,Single,3,7,Other,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+83,20,Male,Undergraduate,Cyprus,3.8,Facebook,No,6.6,7,Complicated,2,6,Other,0,3,1.4000000000000004,2,6,-0.42456736421839386,44.58382067199149,1,The Quiet Addict
+84,22,Female,Graduate,Malta,2.7,LinkedIn,No,7.2,8,In Relationship,1,4,Other,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+85,18,Male,High School,Luxembourg,5.6,Snapchat,Yes,5.3,5,Single,4,8,Other,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+86,21,Female,Undergraduate,Monaco,4.5,Instagram,Yes,5.8,6,Complicated,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+87,19,Male,High School,Andorra,5.3,TikTok,Yes,5.5,5,In Relationship,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+88,23,Female,Graduate,San Marino,2.6,LinkedIn,No,7.3,8,Single,1,4,Other,0,2,0.7000000000000002,1,4,-1.3954234742012153,22.291910335995745,3,The Balanced User
+89,20,Male,Undergraduate,Vatican City,4.4,YouTube,Yes,6.0,6,Complicated,3,7,Other,1,4,2.0,3,7,0.35995831898752223,62.59738211172072,2,The Social Warrior
+90,18,Female,High School,Liechtenstein,5.8,Instagram,Yes,5.2,5,Single,4,9,Other,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+91,22,Male,Graduate,Montenegro,2.9,Facebook,No,7.0,7,In Relationship,2,5,Other,0,3,1.0,2,5,-0.670803277489572,38.9299767669042,1,The Quiet Addict
+92,19,Female,Undergraduate,Albania,4.7,TikTok,Yes,5.8,6,Complicated,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+93,21,Male,Undergraduate,North Macedonia,3.7,Snapchat,No,6.5,7,Single,2,6,Other,0,3,1.5,2,6,-0.404598868720303,45.042319008265075,1,The Quiet Addict
+94,20,Female,High School,Kosovo,5.5,Instagram,Yes,5.4,5,In Relationship,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+95,23,Male,Graduate,Bosnia,2.4,LinkedIn,No,7.4,8,Complicated,1,4,Other,0,2,0.5999999999999996,1,4,-1.4153919696993063,21.833411999722145,3,The Balanced User
+96,19,Female,Undergraduate,Qatar,4.9,TikTok,Yes,5.7,6,Single,3,7,Other,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+97,18,Male,High School,Kuwait,5.7,Snapchat,Yes,5.3,5,In Relationship,4,8,Other,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+98,22,Female,Graduate,Bahrain,2.8,LinkedIn,No,7.1,8,Complicated,1,4,Other,0,2,0.9000000000000004,1,4,-1.3554864832050333,23.208907008542933,3,The Balanced User
+99,20,Male,Undergraduate,Oman,4.6,Instagram,Yes,5.9,6,Single,3,7,Other,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+100,21,Female,Undergraduate,Jordan,5.4,TikTok,Yes,5.5,5,In Relationship,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+101,19,Male,High School,Lebanon,5.8,YouTube,Yes,5.2,5,Complicated,4,9,Other,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+102,23,Female,Graduate,Iraq,2.5,LinkedIn,No,7.3,8,Single,1,4,Other,0,2,0.7000000000000002,1,4,-1.3954234742012153,22.291910335995745,3,The Balanced User
+103,20,Male,Undergraduate,Yemen,4.7,Facebook,Yes,5.8,6,In Relationship,3,7,Other,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+104,18,Female,High School,Syria,5.6,Instagram,Yes,5.4,5,Single,4,8,Other,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+105,22,Male,Graduate,Afghanistan,2.9,LinkedIn,No,7.0,7,Complicated,2,5,Other,0,3,1.0,2,5,-0.670803277489572,38.9299767669042,1,The Quiet Addict
+106,19,Female,Undergraduate,Pakistan,4.8,TikTok,Yes,5.7,6,In Relationship,3,7,Pakistan,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+107,21,Male,Undergraduate,Nepal,3.8,YouTube,No,6.6,7,Single,2,6,Nepal,0,3,1.4000000000000004,2,6,-0.42456736421839386,44.58382067199149,1,The Quiet Addict
+108,20,Female,High School,Bhutan,5.5,Snapchat,Yes,5.5,5,Complicated,4,8,Other,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+109,23,Male,Graduate,Sri Lanka,2.6,LinkedIn,No,7.2,8,In Relationship,1,4,Sri Lanka,0,2,0.7999999999999998,1,4,-1.3754549787031245,22.750408672269334,3,The Balanced User
+110,19,Female,Undergraduate,Maldives,4.9,Instagram,Yes,5.8,6,Single,3,7,Maldives,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+111,20,Male,Undergraduate,Bangladesh,6.1,Instagram,Yes,6.2,5,Single,4,8,Bangladesh,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+112,21,Female,Undergraduate,India,5.8,TikTok,Yes,5.9,6,In Relationship,3,7,India,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+113,19,Male,Undergraduate,Nepal,4.9,Facebook,No,7.1,7,Single,2,5,Nepal,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+114,22,Female,Graduate,Pakistan,5.5,Instagram,Yes,6.0,5,Single,4,8,Pakistan,1,5,2.0,4,8,1.0246730292048924,77.8599535338084,0,The Doomscroller
+115,20,Male,Undergraduate,Sri Lanka,5.2,TikTok,Yes,6.3,6,In Relationship,3,7,Sri Lanka,1,4,1.7000000000000002,3,7,0.3000528324932493,61.22188710289994,2,The Social Warrior
+116,19,Female,Undergraduate,Maldives,4.8,Instagram,No,7.2,8,Single,2,5,Maldives,0,2,0.7999999999999998,2,5,-0.9435649014435626,32.66707374578551,1,The Quiet Addict
+117,21,Male,Graduate,Bangladesh,6.0,Facebook,Yes,5.8,5,In Relationship,4,8,Bangladesh,1,5,2.2,4,8,1.0646100202010746,78.7769502063556,0,The Doomscroller
+118,20,Female,Undergraduate,India,5.7,Instagram,Yes,6.1,6,Single,3,7,India,1,4,1.9000000000000004,3,7,0.33998982348943135,62.13888377544713,2,The Social Warrior
+119,22,Male,Graduate,Nepal,4.7,TikTok,No,7.3,7,Single,2,5,Nepal,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+120,19,Female,Undergraduate,Pakistan,5.4,Instagram,Yes,6.2,5,In Relationship,4,8,Pakistan,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+121,20,Male,Undergraduate,Sri Lanka,5.9,Facebook,Yes,5.9,6,Single,3,7,Sri Lanka,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+122,21,Female,Graduate,Maldives,4.6,Instagram,No,7.4,8,In Relationship,2,5,Maldives,0,2,0.5999999999999996,2,5,-0.9835018924397445,31.75007707323832,1,The Quiet Addict
+123,19,Male,Undergraduate,Bangladesh,5.3,TikTok,Yes,6.3,5,Single,4,8,Bangladesh,1,5,1.7000000000000002,4,8,0.9647675427106196,76.4844585249876,0,The Doomscroller
+124,22,Female,Graduate,India,5.8,Instagram,Yes,5.8,6,In Relationship,3,7,India,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+125,20,Male,Undergraduate,Nepal,4.5,Facebook,No,7.5,7,Single,2,5,Nepal,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+126,21,Female,Graduate,Pakistan,5.2,Instagram,Yes,6.4,5,In Relationship,4,8,Pakistan,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+127,19,Male,Undergraduate,Sri Lanka,5.7,TikTok,Yes,5.7,6,Single,3,7,Sri Lanka,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+128,20,Female,Undergraduate,Maldives,4.4,Instagram,No,7.6,8,In Relationship,2,5,Maldives,0,2,0.40000000000000036,2,5,-1.0234388834359265,30.83308040069113,1,The Quiet Addict
+129,22,Male,Graduate,Bangladesh,5.1,Facebook,Yes,6.5,5,Single,4,8,Bangladesh,1,5,1.5,4,8,0.9248305517144376,75.5674618524404,0,The Doomscroller
+130,21,Female,Graduate,India,5.6,Instagram,Yes,5.6,6,In Relationship,3,7,India,1,4,2.4000000000000004,3,7,0.4398323009798863,64.4313754568151,2,The Social Warrior
+131,19,Male,Undergraduate,Nepal,4.3,TikTok,No,7.7,7,Single,2,5,Nepal,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+132,20,Female,Undergraduate,Pakistan,5.0,Instagram,Yes,6.6,5,In Relationship,4,8,Pakistan,1,5,1.4000000000000004,4,8,0.9048620562163466,75.10896351616681,2,The Social Warrior
+133,22,Male,Graduate,Sri Lanka,5.5,Facebook,Yes,5.5,6,Single,3,7,Sri Lanka,1,4,2.5,3,7,0.45980079647797717,64.8898737930887,2,The Social Warrior
+134,21,Female,Graduate,Maldives,4.2,Instagram,No,7.8,8,In Relationship,2,5,Maldives,0,2,0.20000000000000018,2,5,-1.0633758744321085,29.91608372814394,1,The Quiet Addict
+135,19,Male,Undergraduate,Bangladesh,4.9,TikTok,Yes,6.7,5,Single,4,8,Bangladesh,1,5,1.2999999999999998,4,8,0.8848935607182555,74.65046517989322,2,The Social Warrior
+136,20,Female,Undergraduate,India,5.4,Instagram,Yes,5.4,6,In Relationship,3,7,India,1,4,2.5999999999999996,3,7,0.4797692919760681,65.3483721293623,2,The Social Warrior
+137,22,Male,Graduate,Nepal,4.1,Facebook,No,7.9,7,Single,2,5,Nepal,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+138,21,Female,Graduate,Pakistan,4.8,Instagram,Yes,6.8,5,In Relationship,4,8,Pakistan,1,5,1.2000000000000002,4,8,0.8649250652201647,74.19196684361962,2,The Social Warrior
+139,19,Male,Undergraduate,Sri Lanka,5.3,TikTok,Yes,5.3,6,Single,3,7,Sri Lanka,1,4,2.7,3,7,0.4997377874741592,65.8068704656359,2,The Social Warrior
+140,20,Female,Undergraduate,Maldives,4.0,Instagram,No,8.0,8,In Relationship,2,5,Maldives,0,2,0.0,2,5,-1.1033128654282904,28.999087055596746,1,The Quiet Addict
+141,22,Male,Graduate,Bangladesh,4.7,Facebook,Yes,6.9,5,Single,4,8,Bangladesh,1,5,1.0999999999999996,4,8,0.8449565697220736,73.73346850734603,2,The Social Warrior
+142,21,Female,Graduate,India,5.2,Instagram,Yes,5.2,6,In Relationship,3,7,India,1,4,2.8,3,7,0.5197062829722501,66.2653688019095,2,The Social Warrior
+143,19,Male,Undergraduate,Nepal,3.9,TikTok,No,8.1,7,Single,2,5,Nepal,0,3,-0.09999999999999964,2,5,-0.8904567279685728,33.88649506789464,1,The Quiet Addict
+144,20,Female,Undergraduate,Pakistan,4.6,Instagram,Yes,7.0,5,In Relationship,4,8,Pakistan,1,5,1.0,4,8,0.8249880742239827,73.27497017107243,2,The Social Warrior
+145,22,Male,Graduate,Sri Lanka,5.1,Facebook,Yes,5.1,6,Single,3,7,Sri Lanka,1,4,2.9000000000000004,3,7,0.5396747784703412,66.7238671381831,2,The Social Warrior
+146,21,Female,Graduate,Maldives,3.8,Instagram,No,8.2,8,In Relationship,2,5,Maldives,0,2,-0.1999999999999993,2,5,-1.1432498564244724,28.08209038304955,3,The Balanced User
+147,19,Male,Undergraduate,Bangladesh,4.5,TikTok,Yes,7.1,5,Single,4,8,Bangladesh,1,5,0.9000000000000004,4,8,0.8050195787258918,72.81647183479883,2,The Social Warrior
+148,20,Female,Undergraduate,India,5.0,Instagram,Yes,5.0,6,In Relationship,3,7,India,1,4,3.0,3,7,0.5596432739684322,67.18236547445669,2,The Social Warrior
+149,22,Male,Graduate,Nepal,3.7,Facebook,No,8.3,7,Single,2,5,Nepal,0,3,-0.3000000000000007,2,5,-0.930393718964755,32.96949839534745,1,The Quiet Addict
+150,21,Female,Graduate,Pakistan,4.4,Instagram,Yes,7.2,5,In Relationship,4,8,Pakistan,1,5,0.7999999999999998,4,8,0.7850510832278007,72.35797349852524,2,The Social Warrior
+151,19,Male,Undergraduate,Sri Lanka,4.9,TikTok,Yes,4.9,6,Single,3,7,Sri Lanka,1,4,3.0999999999999996,3,7,0.579611769466523,67.64086381073028,2,The Social Warrior
+152,20,Female,Undergraduate,Maldives,3.6,Instagram,No,8.4,8,In Relationship,2,5,Maldives,0,2,-0.40000000000000036,2,5,-1.1831868474206544,27.165093710502365,3,The Balanced User
+153,22,Male,Graduate,Bangladesh,4.3,Facebook,Yes,7.3,5,Single,4,8,Bangladesh,1,5,0.7000000000000002,4,8,0.7650825877297097,71.89947516225165,2,The Social Warrior
+154,21,Female,Graduate,India,4.8,Instagram,Yes,4.8,6,In Relationship,3,7,India,1,4,3.2,3,7,0.5995802649646141,68.09936214700389,2,The Social Warrior
+155,19,Male,Undergraduate,Nepal,3.5,TikTok,No,8.5,7,Single,2,5,Nepal,0,3,-0.5,2,5,-0.9703307099609368,32.05250172280026,1,The Quiet Addict
+156,20,Female,Undergraduate,Pakistan,4.2,Instagram,Yes,7.4,5,In Relationship,4,8,Pakistan,1,5,0.5999999999999996,4,8,0.7451140922316187,71.44097682597805,2,The Social Warrior
+157,22,Male,Graduate,Sri Lanka,4.7,Facebook,Yes,4.7,6,Single,3,7,Sri Lanka,1,4,3.3,3,7,0.619548760462705,68.55786048327748,2,The Social Warrior
+158,21,Female,Graduate,Maldives,3.4,Instagram,No,8.6,8,In Relationship,2,5,Maldives,0,2,-0.5999999999999996,2,5,-1.2231238384168364,26.24809703795517,3,The Balanced User
+159,19,Male,Undergraduate,Bangladesh,4.1,TikTok,Yes,7.5,5,Single,4,8,Bangladesh,1,5,0.5,4,8,0.7251455967335277,70.98247848970446,2,The Social Warrior
+160,20,Female,Undergraduate,India,4.6,Instagram,Yes,4.6,6,In Relationship,3,7,India,1,4,3.4000000000000004,3,7,0.6395172559607961,69.01635881955107,2,The Social Warrior
+161,19,Female,Undergraduate,Bangladesh,5.3,Instagram,Yes,6.1,5,Single,3,7,Bangladesh,1,5,1.9000000000000004,3,7,0.5728144564472399,67.48479012401862,2,The Social Warrior
+162,21,Male,Graduate,India,4.8,Facebook,No,7.2,7,In Relationship,2,6,India,0,3,0.7999999999999998,2,6,-0.54437833720694,41.832830654349905,1,The Quiet Addict
+163,20,Female,Undergraduate,Nepal,5.5,TikTok,Yes,5.9,6,Single,4,8,Nepal,1,4,2.0999999999999996,4,8,0.8118168917451749,72.97254552151048,0,The Doomscroller
+164,22,Male,Graduate,Pakistan,4.7,Instagram,Yes,6.3,5,In Relationship,3,7,Pakistan,1,5,1.7000000000000002,3,7,0.5328774654510579,66.56779345147143,2,The Social Warrior
+165,19,Female,Undergraduate,Sri Lanka,5.1,Facebook,No,7.0,7,Single,2,5,Sri Lanka,0,3,1.0,2,5,-0.670803277489572,38.9299767669042,1,The Quiet Addict
+166,21,Male,Graduate,Maldives,5.4,TikTok,Yes,6.0,6,In Relationship,4,8,Maldives,1,4,2.0,4,8,0.791848396247084,72.51404718523689,0,The Doomscroller
+167,20,Female,Undergraduate,Bangladesh,4.9,Instagram,Yes,6.4,5,Single,3,7,Bangladesh,1,5,1.5999999999999996,3,7,0.5129089699529668,66.10929511519782,2,The Social Warrior
+168,22,Male,Graduate,India,5.2,Facebook,No,7.1,7,In Relationship,2,6,India,0,3,0.9000000000000004,2,6,-0.5244098417088489,42.291328990623505,1,The Quiet Addict
+169,19,Female,Undergraduate,Nepal,5.6,TikTok,Yes,5.8,6,Single,4,8,Nepal,1,4,2.2,4,8,0.831785387243266,73.43104385778409,0,The Doomscroller
+170,21,Male,Graduate,Pakistan,4.6,Instagram,Yes,6.5,5,In Relationship,3,7,Pakistan,1,5,1.5,3,7,0.4929404744548759,65.65079677892423,2,The Social Warrior
+171,20,Female,Undergraduate,Sri Lanka,5.0,Facebook,No,7.3,7,Single,2,5,Sri Lanka,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+172,22,Male,Graduate,Maldives,5.3,TikTok,Yes,5.7,6,In Relationship,4,8,Maldives,1,4,2.3,4,8,0.8517538827413569,73.88954219405768,0,The Doomscroller
+173,19,Female,Undergraduate,Bangladesh,4.8,Instagram,Yes,6.6,5,Single,3,7,Bangladesh,1,5,1.4000000000000004,3,7,0.47297197895678494,65.19229844265064,2,The Social Warrior
+174,21,Male,Graduate,India,5.1,Facebook,No,7.4,7,In Relationship,2,6,India,0,3,0.5999999999999996,2,6,-0.5843153282031219,40.91583398180271,1,The Quiet Addict
+175,20,Female,Undergraduate,Nepal,5.7,TikTok,Yes,5.6,6,Single,4,8,Nepal,1,4,2.4000000000000004,4,8,0.871722378239448,74.34804053033129,0,The Doomscroller
+176,22,Male,Graduate,Pakistan,4.5,Instagram,Yes,6.7,5,In Relationship,3,7,Pakistan,1,5,1.2999999999999998,3,7,0.45300348345869385,64.73380010637703,2,The Social Warrior
+177,19,Female,Undergraduate,Sri Lanka,4.9,Facebook,No,7.5,7,Single,2,5,Sri Lanka,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+178,21,Male,Graduate,Maldives,5.2,TikTok,Yes,5.5,6,In Relationship,4,8,Maldives,1,4,2.5,4,8,0.8916908737375389,74.80653886660488,0,The Doomscroller
+179,20,Female,Undergraduate,Bangladesh,4.7,Instagram,Yes,6.8,5,Single,3,7,Bangladesh,1,5,1.2000000000000002,3,7,0.4330349879606029,64.27530177010344,2,The Social Warrior
+180,22,Male,Graduate,India,5.0,Facebook,No,7.6,7,In Relationship,2,6,India,0,3,0.40000000000000036,2,6,-0.6242523191993037,39.99883730925553,1,The Quiet Addict
+181,19,Female,Undergraduate,Nepal,5.8,TikTok,Yes,5.4,6,Single,4,8,Nepal,1,4,2.5999999999999996,4,8,0.9116593692356298,75.26503720287847,0,The Doomscroller
+182,21,Male,Graduate,Pakistan,4.4,Instagram,Yes,6.9,5,In Relationship,3,7,Pakistan,1,5,1.0999999999999996,3,7,0.41306649246251187,63.81680343382985,2,The Social Warrior
+183,20,Female,Undergraduate,Sri Lanka,4.8,Facebook,No,7.7,7,Single,2,5,Sri Lanka,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+184,22,Male,Graduate,Maldives,5.1,TikTok,Yes,5.3,6,In Relationship,4,8,Maldives,1,4,2.7,4,8,0.931627864733721,75.72353553915207,0,The Doomscroller
+185,19,Female,Undergraduate,Bangladesh,4.6,Instagram,Yes,7.0,5,Single,3,7,Bangladesh,1,5,1.0,3,7,0.39309799696442094,63.358305097556254,2,The Social Warrior
+186,21,Male,Graduate,India,4.9,Facebook,No,7.8,7,In Relationship,2,6,India,0,3,0.20000000000000018,2,6,-0.6641893101954858,39.08184063670833,1,The Quiet Addict
+187,20,Female,Undergraduate,Nepal,5.9,TikTok,Yes,5.2,6,Single,4,8,Nepal,1,4,2.8,4,8,0.9515963602318118,76.18203387542567,0,The Doomscroller
+188,22,Male,Graduate,Pakistan,4.3,Instagram,Yes,7.1,5,In Relationship,3,7,Pakistan,1,5,0.9000000000000004,3,7,0.37312950146633,62.89980676128266,2,The Social Warrior
+189,19,Female,Undergraduate,Sri Lanka,4.7,Facebook,No,7.9,7,Single,2,5,Sri Lanka,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+190,21,Male,Graduate,Maldives,5.0,TikTok,Yes,5.1,6,In Relationship,4,8,Maldives,1,4,2.9000000000000004,4,8,0.9715648557299029,76.64053221169927,0,The Doomscroller
+191,20,Female,Undergraduate,Bangladesh,4.5,Instagram,Yes,7.2,5,Single,3,7,Bangladesh,1,5,0.7999999999999998,3,7,0.3531610059682389,62.441308425009055,2,The Social Warrior
+192,22,Male,Graduate,India,4.8,Facebook,No,8.0,7,In Relationship,2,6,India,0,3,0.0,2,6,-0.7041263011916677,38.16484396416114,1,The Quiet Addict
+193,19,Female,Undergraduate,Nepal,6.0,TikTok,Yes,5.0,6,Single,4,8,Nepal,1,4,3.0,4,8,0.9915333512279938,77.09903054797286,0,The Doomscroller
+194,21,Male,Graduate,Pakistan,4.2,Instagram,Yes,7.3,5,In Relationship,3,7,Pakistan,1,5,0.7000000000000002,3,7,0.33319251047014803,61.98281008873546,2,The Social Warrior
+195,20,Female,Undergraduate,Sri Lanka,4.6,Facebook,No,8.1,7,Single,2,5,Sri Lanka,0,3,-0.09999999999999964,2,5,-0.8904567279685728,33.88649506789464,1,The Quiet Addict
+196,22,Male,Graduate,Maldives,4.9,TikTok,Yes,4.9,6,In Relationship,4,8,Maldives,1,4,3.0999999999999996,4,8,1.0115018467260848,77.55752888424645,0,The Doomscroller
+197,19,Female,Undergraduate,Bangladesh,4.4,Instagram,Yes,7.4,5,Single,3,7,Bangladesh,1,5,0.5999999999999996,3,7,0.31322401497205693,61.52431175246187,2,The Social Warrior
+198,21,Male,Graduate,India,4.7,Facebook,No,8.2,7,In Relationship,2,6,India,0,3,-0.1999999999999993,2,6,-0.7440632921878496,37.24784729161395,1,The Quiet Addict
+199,20,Female,Undergraduate,Nepal,6.1,TikTok,Yes,4.8,6,Single,4,8,Nepal,1,4,3.2,4,8,1.031470342224176,78.01602722052004,0,The Doomscroller
+200,22,Male,Graduate,Pakistan,4.1,Instagram,Yes,7.5,5,In Relationship,3,7,Pakistan,1,5,0.5,3,7,0.293255519473966,61.06581341618828,2,The Social Warrior
+201,19,Female,Undergraduate,Sri Lanka,4.5,Facebook,No,8.3,7,Single,2,5,Sri Lanka,0,3,-0.3000000000000007,2,5,-0.930393718964755,32.96949839534745,1,The Quiet Addict
+202,21,Male,Graduate,Maldives,4.8,TikTok,Yes,4.7,6,In Relationship,4,8,Maldives,1,4,3.3,4,8,1.0514388377222668,78.47452555679365,0,The Doomscroller
+203,20,Female,Undergraduate,Bangladesh,4.3,Instagram,Yes,7.6,5,Single,3,7,Bangladesh,1,5,0.40000000000000036,3,7,0.27328702397587507,60.607315079914684,2,The Social Warrior
+204,22,Male,Graduate,India,4.6,Facebook,No,8.4,7,In Relationship,2,6,India,0,3,-0.40000000000000036,2,6,-0.7840002831840317,36.33085061906676,1,The Quiet Addict
+205,19,Female,Undergraduate,Nepal,6.2,TikTok,Yes,4.6,6,Single,4,8,Nepal,1,4,3.4000000000000004,4,8,1.071407333220358,78.93302389306724,0,The Doomscroller
+206,21,Male,Graduate,Pakistan,4.0,Instagram,Yes,7.7,5,In Relationship,3,7,Pakistan,1,5,0.2999999999999998,3,7,0.253318528477784,60.148816743641085,2,The Social Warrior
+207,20,Female,Undergraduate,Sri Lanka,4.4,Facebook,No,8.5,7,Single,2,5,Sri Lanka,0,3,-0.5,2,5,-0.9703307099609368,32.05250172280026,1,The Quiet Addict
+208,22,Male,Graduate,Maldives,4.7,TikTok,Yes,4.5,6,In Relationship,4,8,Maldives,1,4,3.5,4,8,1.091375828718449,79.39152222934084,0,The Doomscroller
+209,19,Female,Undergraduate,Bangladesh,4.2,Instagram,Yes,7.8,5,Single,3,7,Bangladesh,1,5,0.20000000000000018,3,7,0.2333500329796931,59.690318407367485,2,The Social Warrior
+210,21,Male,Graduate,India,4.5,Facebook,No,8.6,7,In Relationship,2,6,India,0,3,-0.5999999999999996,2,6,-0.8239372741802136,35.413853946519566,1,The Quiet Addict
+211,20,Female,Undergraduate,Nepal,6.3,TikTok,Yes,4.4,6,Single,4,8,Nepal,1,4,3.5999999999999996,4,8,1.1113443242165397,79.85002056561443,0,The Doomscroller
+212,22,Male,Graduate,Pakistan,3.9,Instagram,Yes,7.9,5,In Relationship,3,7,Pakistan,1,5,0.09999999999999964,3,7,0.213381537481602,59.231820071093885,2,The Social Warrior
+213,19,Female,Undergraduate,Sri Lanka,4.3,Facebook,No,8.7,7,Single,2,5,Sri Lanka,0,3,-0.6999999999999993,2,5,-1.0102677009571186,31.13550505025307,1,The Quiet Addict
+214,21,Male,Graduate,Maldives,4.6,TikTok,Yes,4.3,6,In Relationship,4,8,Maldives,1,4,3.7,4,8,1.131312819714631,80.30851890188802,0,The Doomscroller
+215,20,Female,Undergraduate,Bangladesh,4.1,Instagram,Yes,8.0,5,Single,3,7,Bangladesh,1,5,0.0,3,7,0.19341304198351109,58.77332173482029,2,The Social Warrior
+216,22,Male,Graduate,India,4.4,Facebook,No,8.8,7,In Relationship,2,6,India,0,3,-0.8000000000000007,2,6,-0.8638742651763958,34.49685727397237,1,The Quiet Addict
+217,19,Female,Undergraduate,Nepal,6.4,TikTok,Yes,4.2,6,Single,4,8,Nepal,1,4,3.8,4,8,1.1512813152127217,80.76701723816161,0,The Doomscroller
+218,21,Male,Graduate,Pakistan,3.8,Instagram,Yes,8.1,5,In Relationship,3,7,Pakistan,1,5,-0.09999999999999964,3,7,0.17344454648542018,58.314823398546714,2,The Social Warrior
+219,20,Female,Undergraduate,Sri Lanka,4.2,Facebook,No,8.9,7,Single,2,5,Sri Lanka,0,3,-0.9000000000000004,2,5,-1.0502046919533008,30.21850837770587,1,The Quiet Addict
+220,22,Male,Graduate,Maldives,4.5,TikTok,Yes,4.1,6,In Relationship,4,8,Maldives,1,4,3.9000000000000004,4,8,1.171249810710813,81.22551557443522,0,The Doomscroller
+221,19,Female,Undergraduate,USA,6.5,Instagram,Yes,6.0,5,Single,4,9,USA,1,5,2.0,4,9,1.1910349604837067,81.6798040938013,0,The Doomscroller
+222,21,Male,Graduate,UK,5.8,TikTok,Yes,6.5,6,In Relationship,3,7,UK,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+223,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.5,8,Single,2,5,Other,0,2,0.5,2,5,-1.0034703879378355,31.291578736964727,1,The Quiet Addict
+224,22,Male,Graduate,Germany,4.2,Facebook,No,7.8,7,In Relationship,2,4,Other,0,3,0.20000000000000018,2,4,-0.9969131727531141,31.442139516722523,1,The Quiet Addict
+225,19,Female,Undergraduate,Japan,3.8,LINE,No,7.9,8,Single,1,3,Japan,0,2,0.09999999999999964,1,3,-1.6815963784685755,15.721069758361262,3,The Balanced User
+226,21,Male,Graduate,Italy,5.5,Instagram,Yes,6.8,6,Single,3,7,Italy,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+227,20,Female,Undergraduate,South Korea,5.2,KakaoTalk,Yes,6.5,6,In Relationship,3,6,Other,1,4,1.5,3,6,0.09375391021825312,56.48503987035984,2,The Social Warrior
+228,22,Male,Graduate,Russia,4.8,VKontakte,No,7.2,7,Single,2,5,Russia,0,3,0.7999999999999998,2,5,-0.7107402684857541,38.012980094357005,1,The Quiet Addict
+229,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.8,4,In Relationship,4,9,USA,1,6,2.2,4,9,1.4637965844376974,87.94270711491998,0,The Doomscroller
+230,21,Male,Graduate,UK,5.5,Instagram,Yes,6.7,6,Single,3,7,UK,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+231,20,Female,Undergraduate,Australia,4.7,Facebook,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+232,22,Male,Graduate,Germany,4.0,Instagram,No,7.9,8,Single,1,4,Other,0,2,0.09999999999999964,1,4,-1.5152344471897612,19.540920318354164,3,The Balanced User
+233,19,Female,Undergraduate,Japan,3.5,LINE,No,8.0,8,Single,1,3,Japan,0,2,0.0,1,3,-1.7015648739666664,15.262571422087667,3,The Balanced User
+234,21,Male,Graduate,Italy,5.7,TikTok,Yes,6.5,5,In Relationship,3,8,Italy,1,5,1.5,3,8,0.65930240573369,69.47064733891713,2,The Social Warrior
+235,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.8,6,Single,3,6,Other,1,4,1.2000000000000002,3,6,0.033848423723980205,55.10954486153905,2,The Social Warrior
+236,22,Male,Graduate,Russia,4.5,VKontakte,No,7.4,7,In Relationship,2,5,Russia,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+237,19,Female,Undergraduate,USA,6.8,Instagram,Yes,5.9,4,Single,4,9,USA,1,6,2.0999999999999996,4,9,1.4438280889396062,87.48420877864638,0,The Doomscroller
+238,21,Male,Graduate,UK,5.6,Facebook,Yes,6.6,6,In Relationship,3,7,UK,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+239,20,Female,Undergraduate,Australia,4.6,Instagram,No,7.3,7,Single,2,5,Other,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+240,22,Male,Graduate,Germany,4.1,Facebook,No,7.7,8,In Relationship,2,4,Other,0,2,0.2999999999999998,2,4,-1.2097693102128317,26.554731504424627,3,The Balanced User
+241,19,Female,Undergraduate,Japan,3.7,LINE,No,7.8,8,Single,1,3,Japan,0,2,0.20000000000000018,1,3,-1.6616278829704845,16.17956809463486,3,The Balanced User
+242,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7,Italy,1,5,1.2999999999999998,3,7,0.45300348345869385,64.73380010637703,2,The Social Warrior
+243,20,Female,Undergraduate,South Korea,5.1,KakaoTalk,Yes,6.6,6,In Relationship,3,6,Other,1,4,1.4000000000000004,3,6,0.07378541472016224,56.02654153408625,2,The Social Warrior
+244,22,Male,Graduate,Russia,4.7,VKontakte,No,7.3,7,Single,2,5,Russia,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+245,19,Female,Undergraduate,USA,6.9,TikTok,Yes,5.7,4,In Relationship,4,9,USA,1,6,2.3,4,9,1.4837650799357882,88.40120545119358,0,The Doomscroller
+246,21,Male,Graduate,UK,5.7,Instagram,Yes,6.4,6,Single,3,7,UK,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+247,20,Female,Undergraduate,Australia,4.8,Facebook,No,7.2,7,In Relationship,2,5,Other,0,3,0.7999999999999998,2,5,-0.7107402684857541,38.012980094357005,1,The Quiet Addict
+248,22,Male,Graduate,Germany,3.9,Instagram,No,7.8,8,Single,1,4,Other,0,2,0.20000000000000018,1,4,-1.4952659516916702,19.999418654627764,3,The Balanced User
+249,19,Female,Undergraduate,Japan,3.6,LINE,No,8.1,8,Single,1,3,Japan,0,2,-0.09999999999999964,1,3,-1.7215333694647574,14.804073085814071,3,The Balanced User
+250,21,Male,Graduate,Italy,5.6,TikTok,Yes,6.6,5,In Relationship,3,8,Italy,1,5,1.4000000000000004,3,8,0.6393339102355992,69.01214900264354,2,The Social Warrior
+251,20,Female,Undergraduate,South Korea,4.9,KakaoTalk,Yes,6.9,6,Single,3,6,Other,1,4,1.0999999999999996,3,6,0.013879928225889121,54.65104652526546,2,The Social Warrior
+252,22,Male,Graduate,Russia,4.6,VKontakte,No,7.5,7,In Relationship,2,5,Russia,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+253,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.8,4,Single,4,9,USA,1,6,2.2,4,9,1.4637965844376974,87.94270711491998,0,The Doomscroller
+254,21,Male,Graduate,UK,5.4,Facebook,Yes,6.5,6,In Relationship,3,7,UK,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+255,20,Female,Undergraduate,Australia,4.4,Instagram,No,7.4,7,Single,2,5,Other,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+256,22,Male,Graduate,Germany,4.0,Facebook,No,7.6,8,In Relationship,2,4,Other,0,2,0.40000000000000036,2,4,-1.1898008147147405,27.013229840698234,3,The Balanced User
+257,19,Female,Undergraduate,Japan,3.4,LINE,No,8.2,8,Single,1,3,Japan,0,2,-0.1999999999999993,1,3,-1.7415018649628484,14.345574749540473,3,The Balanced User
+258,21,Male,Graduate,Italy,5.3,Instagram,Yes,6.8,5,Single,3,7,Italy,1,5,1.2000000000000002,3,7,0.4330349879606029,64.27530177010344,2,The Social Warrior
+259,20,Female,Undergraduate,South Korea,5.0,KakaoTalk,Yes,6.7,6,In Relationship,3,6,Other,1,4,1.2999999999999998,3,6,0.05381691922207114,55.568043197812656,2,The Social Warrior
+260,22,Male,Graduate,Russia,4.4,VKontakte,No,7.6,7,Single,2,5,Russia,0,3,0.40000000000000036,2,5,-0.7906142504781178,36.17898674926262,1,The Quiet Addict
+261,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.6,4,In Relationship,4,9,USA,1,6,2.4000000000000004,4,9,1.5037335754338794,88.85970378746718,0,The Doomscroller
+262,21,Male,Graduate,UK,5.3,Instagram,Yes,6.3,6,Single,3,7,UK,1,4,1.7000000000000002,3,7,0.3000528324932493,61.22188710289994,2,The Social Warrior
+263,20,Female,Undergraduate,Australia,4.3,Facebook,No,7.5,7,In Relationship,2,5,Other,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+264,22,Male,Graduate,Germany,3.8,Instagram,No,7.7,8,Single,1,4,Other,0,2,0.2999999999999998,1,4,-1.4752974561935792,20.45791699090136,3,The Balanced User
+265,19,Female,Undergraduate,Japan,3.3,LINE,No,8.3,8,Single,1,3,Japan,0,2,-0.3000000000000007,1,3,-1.7614703604609396,13.887076413266875,3,The Balanced User
+266,21,Male,Graduate,Italy,5.2,TikTok,Yes,6.9,5,In Relationship,3,8,Italy,1,5,1.0999999999999996,3,8,0.5794284237413261,67.63665399382275,2,The Social Warrior
+267,20,Female,Undergraduate,South Korea,4.8,KakaoTalk,Yes,7.0,6,Single,3,6,Other,1,4,1.0,3,6,-0.006088567272201784,54.192548188991864,2,The Social Warrior
+268,22,Male,Graduate,Russia,4.3,VKontakte,No,7.7,7,In Relationship,2,5,Russia,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+269,19,Female,Undergraduate,USA,6.4,Instagram,Yes,5.7,4,Single,4,9,USA,1,6,2.3,4,9,1.4837650799357882,88.40120545119358,0,The Doomscroller
+270,21,Male,Graduate,UK,5.2,Facebook,Yes,6.4,6,In Relationship,3,7,UK,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+271,20,Female,Undergraduate,Australia,4.5,Instagram,No,7.3,7,Single,2,5,Other,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+272,22,Male,Graduate,Germany,3.7,Facebook,No,7.8,8,In Relationship,1,4,Other,0,2,0.20000000000000018,1,4,-1.4952659516916702,19.999418654627764,3,The Balanced User
+273,19,Female,Undergraduate,Japan,3.2,LINE,No,8.4,8,Single,1,3,Japan,0,2,-0.40000000000000036,1,3,-1.7814388559590304,13.428578076993283,3,The Balanced User
+274,21,Male,Graduate,Italy,5.4,Instagram,Yes,6.7,5,Single,3,7,Italy,1,5,1.2999999999999998,3,7,0.45300348345869385,64.73380010637703,2,The Social Warrior
+275,20,Female,Undergraduate,South Korea,4.7,KakaoTalk,Yes,7.1,6,In Relationship,3,6,Other,1,4,0.9000000000000004,3,6,-0.026057062770292697,53.73404985271827,2,The Social Warrior
+276,22,Male,Graduate,Russia,4.2,VKontakte,No,7.8,7,Single,2,5,Russia,0,3,0.20000000000000018,2,5,-0.8305512414742999,35.26199007671543,1,The Quiet Addict
+277,19,Female,Undergraduate,USA,6.6,TikTok,Yes,5.5,4,In Relationship,4,9,USA,1,6,2.5,4,9,1.5237020709319702,89.31820212374076,0,The Doomscroller
+278,21,Male,Graduate,UK,5.1,Instagram,Yes,6.5,6,Single,3,7,UK,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+279,20,Female,Undergraduate,Australia,4.4,Facebook,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+280,22,Male,Graduate,Germany,3.6,Instagram,No,7.9,8,Single,1,4,Other,0,2,0.09999999999999964,1,4,-1.5152344471897612,19.540920318354164,3,The Balanced User
+281,19,Female,Undergraduate,Japan,3.1,LINE,No,8.5,8,Single,1,3,Japan,0,2,-0.5,1,3,-1.8014073514571214,12.970079740719687,3,The Balanced User
+282,21,Male,Graduate,Italy,5.3,TikTok,Yes,6.8,5,In Relationship,3,8,Italy,1,5,1.2000000000000002,3,8,0.5993969192394171,68.09515233009635,2,The Social Warrior
+283,20,Female,Undergraduate,South Korea,4.6,KakaoTalk,Yes,7.2,6,Single,3,6,Other,1,4,0.7999999999999998,3,6,-0.046025558268383795,53.27555151644467,2,The Social Warrior
+284,22,Male,Graduate,Russia,4.1,VKontakte,No,7.9,7,In Relationship,2,5,Russia,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+285,19,Female,Undergraduate,USA,6.7,Instagram,Yes,5.4,4,Single,4,9,USA,1,6,2.5999999999999996,4,9,1.5436705664300612,89.77670046001435,0,The Doomscroller
+286,21,Male,Graduate,UK,5.0,Facebook,Yes,6.6,6,In Relationship,3,7,UK,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+287,20,Female,Undergraduate,Australia,4.3,Instagram,No,7.5,7,Single,2,5,Other,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+288,22,Male,Graduate,Germany,3.5,Facebook,No,8.0,8,In Relationship,1,4,Other,0,2,0.0,1,4,-1.5352029426878522,19.08242198208057,3,The Balanced User
+289,19,Female,Undergraduate,Japan,3.0,LINE,No,8.6,8,Single,1,3,Japan,0,2,-0.5999999999999996,1,3,-1.8213758469552124,12.51158140444609,3,The Balanced User
+290,21,Male,Graduate,Italy,5.2,Instagram,Yes,6.9,5,Single,3,7,Italy,1,5,1.0999999999999996,3,7,0.41306649246251187,63.81680343382985,2,The Social Warrior
+291,20,Female,Undergraduate,South Korea,4.5,KakaoTalk,Yes,7.3,6,In Relationship,3,6,Other,1,4,0.7000000000000002,3,6,-0.0659940537664747,52.81705318017108,2,The Social Warrior
+292,22,Male,Graduate,Russia,4.0,VKontakte,No,8.0,7,Single,2,5,Russia,0,3,0.0,2,5,-0.8704882324704819,34.34499340416824,1,The Quiet Addict
+293,19,Female,Undergraduate,USA,6.8,TikTok,Yes,5.3,4,In Relationship,4,9,USA,1,6,2.7,4,9,1.5636390619281522,90.23519879628795,0,The Doomscroller
+294,21,Male,Graduate,UK,4.9,Instagram,Yes,6.7,6,Single,3,7,UK,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+295,20,Female,Undergraduate,Australia,4.2,Facebook,No,7.6,7,In Relationship,2,5,Other,0,3,0.40000000000000036,2,5,-0.7906142504781178,36.17898674926262,1,The Quiet Addict
+296,22,Male,Graduate,Germany,3.4,Instagram,No,8.1,8,Single,1,4,Other,0,2,-0.09999999999999964,1,4,-1.5551714381859432,18.623923645806975,3,The Balanced User
+297,19,Female,Undergraduate,Japan,2.9,LINE,No,8.7,8,Single,1,3,Japan,0,2,-0.6999999999999993,1,3,-1.8413443424533031,12.0530830681725,3,The Balanced User
+298,21,Male,Graduate,Italy,5.1,TikTok,Yes,7.0,5,In Relationship,3,8,Italy,1,5,1.0,3,8,0.5594599282432351,67.17815565754915,2,The Social Warrior
+299,20,Female,Undergraduate,South Korea,4.4,KakaoTalk,Yes,7.4,6,Single,3,6,Other,1,4,0.5999999999999996,3,6,-0.08596254926456579,52.35855484389747,2,The Social Warrior
+300,22,Male,Graduate,Russia,3.9,VKontakte,No,8.1,7,In Relationship,2,5,Russia,0,3,-0.09999999999999964,2,5,-0.8904567279685728,33.88649506789464,1,The Quiet Addict
+301,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.2,4,Single,4,9,USA,1,6,2.8,4,9,1.5836075574262432,90.69369713256155,0,The Doomscroller
+302,21,Male,Graduate,UK,4.8,Facebook,Yes,6.8,6,In Relationship,3,7,UK,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+303,20,Female,Undergraduate,Australia,4.1,Instagram,No,7.7,7,Single,2,5,Other,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+304,22,Male,Graduate,Germany,3.3,Facebook,No,8.2,8,In Relationship,1,4,Other,0,2,-0.1999999999999993,1,4,-1.5751399336840342,18.16542530953338,3,The Balanced User
+305,19,Female,Undergraduate,Japan,2.8,LINE,No,8.8,8,Single,1,3,Japan,0,2,-0.8000000000000007,1,3,-1.8613128379513946,11.594584731898895,3,The Balanced User
+306,21,Male,Graduate,Italy,5.0,Instagram,Yes,7.1,5,Single,3,7,Italy,1,5,0.9000000000000004,3,7,0.37312950146633,62.89980676128266,2,The Social Warrior
+307,20,Female,Undergraduate,South Korea,4.3,KakaoTalk,Yes,7.5,6,In Relationship,3,6,Other,1,4,0.5,3,6,-0.1059310447626567,51.90005650762388,2,The Social Warrior
+308,22,Male,Graduate,Russia,3.8,VKontakte,No,8.2,7,Single,2,5,Russia,0,3,-0.1999999999999993,2,5,-0.9104252234666638,33.42799673162104,1,The Quiet Addict
+309,19,Female,Undergraduate,USA,7.0,TikTok,Yes,5.1,4,In Relationship,4,9,USA,1,6,2.9000000000000004,4,9,1.6035760529243341,91.15219546883515,0,The Doomscroller
+310,21,Male,Graduate,UK,4.7,Instagram,Yes,6.9,6,Single,3,7,UK,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+311,20,Female,Undergraduate,Australia,4.0,Facebook,No,7.8,7,In Relationship,2,5,Other,0,3,0.20000000000000018,2,5,-0.8305512414742999,35.26199007671543,1,The Quiet Addict
+312,22,Male,Graduate,Germany,3.2,Instagram,No,8.3,8,Single,1,4,Other,0,2,-0.3000000000000007,1,4,-1.5951084291821254,17.70692697325978,3,The Balanced User
+313,19,Female,Undergraduate,Japan,2.7,LINE,No,8.9,8,Single,1,3,Japan,0,2,-0.9000000000000004,1,3,-1.8812813334494853,11.136086395625302,3,The Balanced User
+314,21,Male,Graduate,Italy,4.9,TikTok,Yes,7.2,5,In Relationship,3,8,Italy,1,5,0.7999999999999998,3,8,0.5195229372470531,66.26115898500197,2,The Social Warrior
+315,20,Female,Undergraduate,South Korea,4.2,KakaoTalk,Yes,7.6,6,Single,3,6,Other,1,4,0.40000000000000036,3,6,-0.12589954026074762,51.44155817135029,2,The Social Warrior
+316,22,Male,Graduate,Russia,3.7,VKontakte,No,8.3,7,In Relationship,2,5,Russia,0,3,-0.3000000000000007,2,5,-0.930393718964755,32.96949839534745,1,The Quiet Addict
+317,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.0,4,Single,4,9,USA,1,6,3.0,4,9,1.6235445484224251,91.61069380510874,0,The Doomscroller
+318,21,Male,Graduate,UK,4.6,Facebook,Yes,7.0,6,In Relationship,3,7,UK,1,4,1.0,3,7,0.1602733640066124,58.01239874898477,2,The Social Warrior
+319,20,Female,Undergraduate,Australia,3.9,Instagram,No,7.9,7,Single,2,5,Other,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+320,22,Male,Graduate,Germany,3.1,Facebook,No,8.4,8,In Relationship,1,4,Other,0,2,-0.40000000000000036,1,4,-1.6150769246802161,17.248428636986187,3,The Balanced User
+321,19,Female,Undergraduate,Spain,5.2,Instagram,Yes,6.8,6,Single,3,7,Spain,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+322,21,Male,Graduate,Denmark,4.1,Facebook,No,7.8,8,In Relationship,2,4,Denmark,0,2,0.20000000000000018,2,4,-1.2297378057109225,26.096233168151038,3,The Balanced User
+323,20,Female,Undergraduate,Ireland,5.0,Instagram,Yes,7.0,7,Single,3,6,Ireland,1,3,1.0,3,6,-0.23891320023001034,48.84664184042037,2,The Social Warrior
+324,22,Male,Graduate,India,5.8,WhatsApp,Yes,6.5,5,In Relationship,4,8,India,1,5,1.5,4,8,0.9248305517144376,75.5674618524404,0,The Doomscroller
+325,19,Female,Undergraduate,Switzerland,4.0,Instagram,No,7.9,8,Single,2,4,Switzerland,0,2,0.09999999999999964,2,4,-1.2497063012090137,25.63773483187744,3,The Balanced User
+326,21,Male,Graduate,Turkey,5.5,Instagram,Yes,6.7,6,Single,3,7,Turkey,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+327,20,Female,Undergraduate,USA,6.8,TikTok,Yes,5.5,5,In Relationship,4,9,USA,1,5,2.5,4,9,1.2908774379741617,83.97229577516929,0,The Doomscroller
+328,22,Male,Graduate,Mexico,5.6,WhatsApp,Yes,6.6,6,Single,3,7,Mexico,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+329,19,Female,Undergraduate,France,4.5,Instagram,No,7.5,7,In Relationship,2,5,France,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+330,21,Male,Graduate,Canada,5.3,Instagram,Yes,6.9,6,Single,3,7,Canada,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+331,20,Female,Undergraduate,Spain,5.1,TikTok,Yes,6.7,6,Single,3,7,Spain,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+332,22,Male,Graduate,Denmark,3.9,Facebook,No,7.9,8,In Relationship,2,4,Denmark,0,2,0.09999999999999964,2,4,-1.2497063012090137,25.63773483187744,3,The Balanced User
+333,19,Female,Undergraduate,Ireland,4.8,Instagram,Yes,7.1,7,Single,3,6,Ireland,1,3,0.9000000000000004,3,6,-0.2588816957281012,48.38814350414678,1,The Quiet Addict
+334,21,Male,Graduate,India,5.9,WhatsApp,Yes,6.4,5,In Relationship,4,8,India,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+335,20,Female,Undergraduate,Switzerland,3.8,Instagram,No,8.0,8,Single,2,4,Switzerland,0,2,0.0,2,4,-1.2696747967071047,25.179236495603842,3,The Balanced User
+336,22,Male,Graduate,Turkey,5.4,TikTok,Yes,6.8,6,Single,3,7,Turkey,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+337,19,Female,Undergraduate,USA,6.9,Instagram,Yes,5.4,5,In Relationship,4,9,USA,1,5,2.5999999999999996,4,9,1.3108459334722526,84.43079411144288,0,The Doomscroller
+338,21,Male,Graduate,Mexico,5.7,WhatsApp,Yes,6.5,6,Single,3,7,Mexico,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+339,20,Female,Undergraduate,France,4.4,Instagram,No,7.6,7,In Relationship,2,5,France,0,3,0.40000000000000036,2,5,-0.7906142504781178,36.17898674926262,1,The Quiet Addict
+340,22,Male,Graduate,Canada,5.2,TikTok,Yes,7.0,6,Single,3,7,Canada,1,4,1.0,3,7,0.1602733640066124,58.01239874898477,2,The Social Warrior
+341,19,Female,Undergraduate,Spain,5.0,Instagram,Yes,6.9,6,Single,3,7,Spain,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+342,21,Male,Graduate,Denmark,3.8,Facebook,No,8.0,8,In Relationship,2,4,Denmark,0,2,0.0,2,4,-1.2696747967071047,25.179236495603842,3,The Balanced User
+343,20,Female,Undergraduate,Ireland,4.7,TikTok,Yes,7.2,7,Single,3,6,Ireland,1,3,0.7999999999999998,3,6,-0.2788501912261923,47.929645167873176,1,The Quiet Addict
+344,22,Male,Graduate,India,6.0,WhatsApp,Yes,6.3,5,In Relationship,4,8,India,1,5,1.7000000000000002,4,8,0.9647675427106196,76.4844585249876,0,The Doomscroller
+345,19,Female,Undergraduate,Switzerland,3.7,Instagram,No,8.1,8,Single,2,4,Switzerland,0,2,-0.09999999999999964,2,4,-1.2896432922051955,24.720738159330253,3,The Balanced User
+346,21,Male,Graduate,Turkey,5.3,Instagram,Yes,6.9,6,Single,3,7,Turkey,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+347,20,Female,Undergraduate,USA,7.0,TikTok,Yes,5.3,5,In Relationship,4,9,USA,1,5,2.7,4,9,1.3308144289703436,84.88929244771647,0,The Doomscroller
+348,22,Male,Graduate,Mexico,5.8,WhatsApp,Yes,6.4,6,Single,3,7,Mexico,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+349,19,Female,Undergraduate,France,4.3,Instagram,No,7.7,7,In Relationship,2,5,France,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+350,21,Male,Graduate,Canada,5.1,Instagram,Yes,7.1,6,Single,3,7,Canada,1,4,0.9000000000000004,3,7,0.14030486850852147,57.553900412711165,2,The Social Warrior
+351,20,Female,Undergraduate,Spain,4.9,TikTok,Yes,7.0,6,Single,3,7,Spain,1,4,1.0,3,7,0.1602733640066124,58.01239874898477,2,The Social Warrior
+352,22,Male,Graduate,Denmark,3.7,Facebook,No,8.1,8,In Relationship,2,4,Denmark,0,2,-0.09999999999999964,2,4,-1.2896432922051955,24.720738159330253,3,The Balanced User
+353,19,Female,Undergraduate,Ireland,4.6,Instagram,Yes,7.3,7,Single,3,6,Ireland,1,3,0.7000000000000002,3,6,-0.29881868672428324,47.47114683159958,1,The Quiet Addict
+354,21,Male,Graduate,India,6.1,WhatsApp,Yes,6.2,5,In Relationship,4,8,India,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+355,20,Female,Undergraduate,Switzerland,3.6,Instagram,No,8.2,8,Single,2,4,Switzerland,0,2,-0.1999999999999993,2,4,-1.3096117877032865,24.262239823056657,3,The Balanced User
+356,22,Male,Graduate,Turkey,5.2,TikTok,Yes,7.0,6,Single,3,7,Turkey,1,4,1.0,3,7,0.1602733640066124,58.01239874898477,2,The Social Warrior
+357,19,Female,Undergraduate,USA,7.1,Instagram,Yes,5.2,5,In Relationship,4,9,USA,1,5,2.8,4,9,1.3507829244684346,85.34779078399006,0,The Doomscroller
+358,21,Male,Graduate,Mexico,5.9,WhatsApp,Yes,6.3,6,Single,3,7,Mexico,1,4,1.7000000000000002,3,7,0.3000528324932493,61.22188710289994,2,The Social Warrior
+359,20,Female,Undergraduate,France,4.2,Instagram,No,7.8,7,In Relationship,2,5,France,0,3,0.20000000000000018,2,5,-0.8305512414742999,35.26199007671543,1,The Quiet Addict
+360,22,Male,Graduate,Canada,5.0,TikTok,Yes,7.2,6,Single,3,7,Canada,1,4,0.7999999999999998,3,7,0.12033637301043039,57.09540207643757,2,The Social Warrior
+361,19,Female,Undergraduate,Spain,4.8,Instagram,Yes,7.1,6,Single,3,7,Spain,1,4,0.9000000000000004,3,7,0.14030486850852147,57.553900412711165,2,The Social Warrior
+362,21,Male,Graduate,Denmark,3.6,Facebook,No,8.2,8,In Relationship,2,4,Denmark,0,2,-0.1999999999999993,2,4,-1.3096117877032865,24.262239823056657,3,The Balanced User
+363,20,Female,Undergraduate,Ireland,4.5,TikTok,Yes,7.4,7,Single,3,6,Ireland,1,3,0.5999999999999996,3,6,-0.31878718222237434,47.01264849532598,1,The Quiet Addict
+364,22,Male,Graduate,India,6.2,WhatsApp,Yes,6.1,5,In Relationship,4,8,India,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+365,19,Female,Undergraduate,Switzerland,3.5,Instagram,No,8.3,8,Single,2,4,Switzerland,0,2,-0.3000000000000007,2,4,-1.3295802832013777,23.803741486783053,3,The Balanced User
+366,21,Male,Graduate,Turkey,5.1,Instagram,Yes,7.1,6,Single,3,7,Turkey,1,4,0.9000000000000004,3,7,0.14030486850852147,57.553900412711165,2,The Social Warrior
+367,20,Female,Undergraduate,USA,7.2,TikTok,Yes,5.1,5,In Relationship,4,9,USA,1,5,2.9000000000000004,4,9,1.3707514199665256,85.80628912026366,0,The Doomscroller
+368,22,Male,Graduate,Mexico,6.0,WhatsApp,Yes,6.2,6,Single,3,7,Mexico,1,4,1.7999999999999998,3,7,0.32002132799134025,61.680385439173534,2,The Social Warrior
+369,19,Female,Undergraduate,France,4.1,Instagram,No,7.9,7,In Relationship,2,5,France,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+370,21,Male,Graduate,Canada,4.9,Instagram,Yes,7.3,6,Single,3,7,Canada,1,4,0.7000000000000002,3,7,0.10036787751233947,56.63690374016398,2,The Social Warrior
+371,20,Female,Undergraduate,Spain,4.7,TikTok,Yes,7.2,6,Single,3,7,Spain,1,4,0.7999999999999998,3,7,0.12033637301043039,57.09540207643757,2,The Social Warrior
+372,22,Male,Graduate,Denmark,3.5,Facebook,No,8.3,8,In Relationship,2,4,Denmark,0,2,-0.3000000000000007,2,4,-1.3295802832013777,23.803741486783053,3,The Balanced User
+373,19,Female,Undergraduate,Ireland,4.4,Instagram,Yes,7.5,7,Single,3,6,Ireland,1,3,0.5,3,6,-0.3387556777204652,46.55415015905239,1,The Quiet Addict
+374,21,Male,Graduate,India,6.3,WhatsApp,Yes,6.0,5,In Relationship,4,8,India,1,5,2.0,4,8,1.0246730292048924,77.8599535338084,0,The Doomscroller
+375,20,Female,Undergraduate,Switzerland,3.4,Instagram,No,8.4,8,Single,2,4,Switzerland,0,2,-0.40000000000000036,2,4,-1.3495487786994687,23.34524315050946,3,The Balanced User
+376,22,Male,Graduate,Turkey,5.0,TikTok,Yes,7.2,6,Single,3,7,Turkey,1,4,0.7999999999999998,3,7,0.12033637301043039,57.09540207643757,2,The Social Warrior
+377,19,Female,Undergraduate,USA,7.3,Instagram,Yes,5.0,5,In Relationship,4,9,USA,1,5,3.0,4,9,1.3907199154646166,86.26478745653726,0,The Doomscroller
+378,21,Male,Graduate,Mexico,6.1,WhatsApp,Yes,6.1,6,Single,3,7,Mexico,1,4,1.9000000000000004,3,7,0.33998982348943135,62.13888377544713,2,The Social Warrior
+379,20,Female,Undergraduate,France,4.0,Instagram,No,8.0,7,In Relationship,2,5,France,0,3,0.0,2,5,-0.8704882324704819,34.34499340416824,1,The Quiet Addict
+380,22,Male,Graduate,Canada,4.8,TikTok,Yes,7.4,6,Single,3,7,Canada,1,4,0.5999999999999996,3,7,0.08039938201424839,56.17840540389039,2,The Social Warrior
+381,19,Female,Undergraduate,Spain,4.6,Instagram,Yes,7.3,6,Single,3,7,Spain,1,4,0.7000000000000002,3,7,0.10036787751233947,56.63690374016398,2,The Social Warrior
+382,21,Male,Graduate,Denmark,3.4,Facebook,No,8.4,8,In Relationship,2,4,Denmark,0,2,-0.40000000000000036,2,4,-1.3495487786994687,23.34524315050946,3,The Balanced User
+383,20,Female,Undergraduate,Ireland,4.3,TikTok,Yes,7.6,7,Single,3,6,Ireland,1,3,0.40000000000000036,3,6,-0.3587241732185561,46.0956518227788,1,The Quiet Addict
+384,22,Male,Graduate,India,6.4,WhatsApp,Yes,5.9,5,In Relationship,4,8,India,1,5,2.0999999999999996,4,8,1.0446415247029834,78.318451870082,0,The Doomscroller
+385,19,Female,Undergraduate,Switzerland,3.3,Instagram,No,8.5,8,Single,2,4,Switzerland,0,2,-0.5,2,4,-1.3695172741975596,22.88674481423586,3,The Balanced User
+386,21,Male,Graduate,Turkey,4.9,Instagram,Yes,7.3,6,Single,3,7,Turkey,1,4,0.7000000000000002,3,7,0.10036787751233947,56.63690374016398,2,The Social Warrior
+387,20,Female,Undergraduate,USA,7.4,TikTok,Yes,4.9,5,In Relationship,4,9,USA,1,5,3.0999999999999996,4,9,1.4106884109627076,86.72328579281086,0,The Doomscroller
+388,22,Male,Graduate,Mexico,6.2,WhatsApp,Yes,6.0,6,Single,3,7,Mexico,1,4,2.0,3,7,0.35995831898752223,62.59738211172072,2,The Social Warrior
+389,19,Female,Undergraduate,France,3.9,Instagram,No,8.1,7,In Relationship,2,5,France,0,3,-0.09999999999999964,2,5,-0.8904567279685728,33.88649506789464,1,The Quiet Addict
+390,21,Male,Graduate,Canada,4.7,Instagram,Yes,7.5,6,Single,3,7,Canada,1,4,0.5,3,7,0.060430886516157474,55.719907067616795,2,The Social Warrior
+391,20,Female,Undergraduate,Spain,4.5,TikTok,Yes,7.4,6,Single,3,7,Spain,1,4,0.5999999999999996,3,7,0.08039938201424839,56.17840540389039,2,The Social Warrior
+392,22,Male,Graduate,Denmark,3.3,Facebook,No,8.5,8,In Relationship,2,4,Denmark,0,2,-0.5,2,4,-1.3695172741975596,22.88674481423586,3,The Balanced User
+393,19,Female,Undergraduate,Ireland,4.2,Instagram,Yes,7.7,7,Single,3,6,Ireland,1,3,0.2999999999999998,3,6,-0.3786926687166472,45.6371534865052,1,The Quiet Addict
+394,21,Male,Graduate,India,6.5,WhatsApp,Yes,5.8,5,In Relationship,4,8,India,1,5,2.2,4,8,1.0646100202010746,78.7769502063556,0,The Doomscroller
+395,20,Female,Undergraduate,Switzerland,3.2,Instagram,No,8.6,8,Single,2,4,Switzerland,0,2,-0.5999999999999996,2,4,-1.3894857696956504,22.428246477962272,3,The Balanced User
+396,22,Male,Graduate,Turkey,4.8,TikTok,Yes,7.4,6,Single,3,7,Turkey,1,4,0.5999999999999996,3,7,0.08039938201424839,56.17840540389039,2,The Social Warrior
+397,19,Female,Undergraduate,USA,7.5,Instagram,Yes,4.8,5,In Relationship,4,9,USA,1,5,3.2,4,9,1.4306569064607986,87.18178412908445,0,The Doomscroller
+398,21,Male,Graduate,Mexico,6.3,WhatsApp,Yes,5.9,6,Single,3,7,Mexico,1,4,2.0999999999999996,3,7,0.37992681448561316,63.055880447994326,2,The Social Warrior
+399,20,Female,Undergraduate,France,3.8,Instagram,No,8.2,7,In Relationship,2,5,France,0,3,-0.1999999999999993,2,5,-0.9104252234666638,33.42799673162104,1,The Quiet Addict
+400,22,Male,Graduate,Canada,4.6,TikTok,Yes,7.6,6,Single,3,7,Canada,1,4,0.40000000000000036,3,7,0.040462391018066556,55.26140873134319,2,The Social Warrior
+401,19,Female,Undergraduate,Spain,4.4,Instagram,Yes,7.5,6,Single,3,7,Spain,1,4,0.5,3,7,0.060430886516157474,55.719907067616795,2,The Social Warrior
+402,21,Male,Graduate,Denmark,3.2,Facebook,No,8.6,8,In Relationship,2,4,Denmark,0,2,-0.5999999999999996,2,4,-1.3894857696956504,22.428246477962272,3,The Balanced User
+403,20,Female,Undergraduate,Ireland,4.1,TikTok,Yes,7.8,7,Single,3,6,Ireland,1,3,0.20000000000000018,3,6,-0.39866116421473813,45.178655150231606,1,The Quiet Addict
+404,22,Male,Graduate,India,6.6,WhatsApp,Yes,5.7,5,In Relationship,4,8,India,1,5,2.3,4,8,1.0845785156991654,79.23544854262919,0,The Doomscroller
+405,19,Female,Undergraduate,Switzerland,3.1,Instagram,No,8.7,8,Single,2,4,Switzerland,0,2,-0.6999999999999993,2,4,-1.4094542651937414,21.969748141688676,3,The Balanced User
+406,21,Male,Graduate,Turkey,4.7,Instagram,Yes,7.5,6,Single,3,7,Turkey,1,4,0.5,3,7,0.060430886516157474,55.719907067616795,2,The Social Warrior
+407,20,Female,Undergraduate,USA,7.6,TikTok,Yes,4.7,5,In Relationship,4,9,USA,1,5,3.3,4,9,1.4506254019588896,87.64028246535804,0,The Doomscroller
+408,22,Male,Graduate,Mexico,6.4,WhatsApp,Yes,5.8,6,Single,3,7,Mexico,1,4,2.2,3,7,0.39989530998370426,63.51437878426792,2,The Social Warrior
+409,19,Female,Undergraduate,France,3.7,Instagram,No,8.3,7,In Relationship,2,5,France,0,3,-0.3000000000000007,2,5,-0.930393718964755,32.96949839534745,1,The Quiet Addict
+410,21,Male,Graduate,Canada,4.5,Instagram,Yes,7.7,6,Single,3,7,Canada,1,4,0.2999999999999998,3,7,0.020493895519975453,54.802910395069595,2,The Social Warrior
+411,20,Female,Undergraduate,Spain,4.3,TikTok,Yes,7.6,6,Single,3,7,Spain,1,4,0.40000000000000036,3,7,0.040462391018066556,55.26140873134319,2,The Social Warrior
+412,22,Male,Graduate,Denmark,3.1,Facebook,No,8.7,8,In Relationship,2,4,Denmark,0,2,-0.6999999999999993,2,4,-1.4094542651937414,21.969748141688676,3,The Balanced User
+413,19,Female,Undergraduate,Ireland,4.0,Instagram,Yes,7.9,7,Single,3,6,Ireland,1,3,0.09999999999999964,3,6,-0.4186296597128292,44.720156813958006,1,The Quiet Addict
+414,21,Male,Graduate,India,6.7,WhatsApp,Yes,5.6,5,In Relationship,4,8,India,1,5,2.4000000000000004,4,8,1.1045470111972566,79.69394687890278,0,The Doomscroller
+415,20,Female,Undergraduate,Switzerland,3.0,Instagram,No,8.8,8,Single,2,4,Switzerland,0,2,-0.8000000000000007,2,4,-1.4294227606918326,21.511249805415076,3,The Balanced User
+416,22,Male,Graduate,Turkey,4.6,TikTok,Yes,7.6,6,Single,3,7,Turkey,1,4,0.40000000000000036,3,7,0.040462391018066556,55.26140873134319,2,The Social Warrior
+417,19,Female,Undergraduate,USA,7.7,Instagram,Yes,4.6,5,In Relationship,4,9,USA,1,5,3.4000000000000004,4,9,1.4705938974569805,88.09878080163163,0,The Doomscroller
+418,21,Male,Graduate,Mexico,6.5,WhatsApp,Yes,5.7,6,Single,3,7,Mexico,1,4,2.3,3,7,0.4198638054817952,63.97287712054152,2,The Social Warrior
+419,20,Female,Undergraduate,France,3.6,Instagram,No,8.4,7,In Relationship,2,5,France,0,3,-0.40000000000000036,2,5,-0.9503622144628459,32.51100005907385,1,The Quiet Addict
+420,22,Male,Graduate,Canada,4.4,TikTok,Yes,7.8,6,Single,3,7,Canada,1,4,0.20000000000000018,3,7,0.0005254000218845607,54.344412058795996,2,The Social Warrior
+421,19,Female,Undergraduate,Spain,4.2,Instagram,Yes,7.7,6,Single,3,7,Spain,1,4,0.2999999999999998,3,7,0.020493895519975453,54.802910395069595,2,The Social Warrior
+422,21,Male,Graduate,Denmark,3.0,Facebook,No,8.8,8,In Relationship,2,4,Denmark,0,2,-0.8000000000000007,2,4,-1.4294227606918326,21.511249805415076,3,The Balanced User
+423,20,Female,Undergraduate,Ireland,3.9,TikTok,Yes,8.0,7,Single,3,6,Ireland,1,3,0.0,3,6,-0.4385981552109201,44.26165847768441,1,The Quiet Addict
+424,22,Male,Graduate,India,6.8,WhatsApp,Yes,5.5,5,In Relationship,4,8,India,1,5,2.5,4,8,1.1245155066953476,80.15244521517637,0,The Doomscroller
+425,19,Female,Undergraduate,Switzerland,2.9,Instagram,No,8.9,8,Single,2,4,Switzerland,0,2,-0.9000000000000004,2,4,-1.4493912561899236,21.05275146914148,3,The Balanced User
+426,21,Male,Graduate,Turkey,4.5,Instagram,Yes,7.7,6,Single,3,7,Turkey,1,4,0.2999999999999998,3,7,0.020493895519975453,54.802910395069595,2,The Social Warrior
+427,20,Female,Undergraduate,USA,7.8,TikTok,Yes,4.5,5,In Relationship,4,9,USA,1,5,3.5,4,9,1.4905623929550715,88.55727913790524,0,The Doomscroller
+428,22,Male,Graduate,Mexico,6.6,WhatsApp,Yes,5.6,6,Single,3,7,Mexico,1,4,2.4000000000000004,3,7,0.4398323009798863,64.4313754568151,0,The Doomscroller
+429,19,Female,Undergraduate,France,3.5,Instagram,No,8.5,7,In Relationship,2,5,France,0,3,-0.5,2,5,-0.9703307099609368,32.05250172280026,1,The Quiet Addict
+430,21,Male,Graduate,Canada,4.3,Instagram,Yes,7.9,6,Single,3,7,Canada,1,4,0.09999999999999964,3,7,-0.019443095476206537,53.8859137225224,2,The Social Warrior
+431,20,Female,Undergraduate,Spain,4.1,TikTok,Yes,7.8,6,Single,3,7,Spain,1,4,0.20000000000000018,3,7,0.0005254000218845607,54.344412058795996,2,The Social Warrior
+432,22,Male,Graduate,Denmark,2.9,Facebook,No,8.9,8,In Relationship,2,4,Denmark,0,2,-0.9000000000000004,2,4,-1.4493912561899236,21.05275146914148,3,The Balanced User
+433,19,Female,Undergraduate,Ireland,3.8,Instagram,Yes,8.1,7,Single,3,6,Ireland,1,3,-0.09999999999999964,3,6,-0.45856665070901104,43.80316014141082,1,The Quiet Addict
+434,21,Male,Graduate,India,6.9,WhatsApp,Yes,5.4,5,In Relationship,4,8,India,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+435,20,Female,Undergraduate,Switzerland,2.8,Instagram,No,9.0,8,Single,2,4,Switzerland,0,2,-1.0,2,4,-1.4693597516880144,20.594253132867888,3,The Balanced User
+436,22,Male,Graduate,Turkey,4.4,TikTok,Yes,7.8,6,Single,3,7,Turkey,1,4,0.20000000000000018,3,7,0.0005254000218845607,54.344412058795996,2,The Social Warrior
+437,19,Female,Undergraduate,USA,7.9,Instagram,Yes,4.4,5,In Relationship,4,9,USA,1,5,3.5999999999999996,4,9,1.5105308884531625,89.01577747417883,0,The Doomscroller
+438,21,Male,Graduate,Mexico,6.7,WhatsApp,Yes,5.5,6,Single,3,7,Mexico,1,4,2.5,3,7,0.45980079647797717,64.8898737930887,0,The Doomscroller
+439,20,Female,Undergraduate,France,3.4,Instagram,No,8.6,7,In Relationship,2,5,France,0,3,-0.5999999999999996,2,5,-0.9902992054590277,31.59400338652666,1,The Quiet Addict
+440,22,Male,Graduate,Canada,4.2,TikTok,Yes,8.0,6,Single,3,7,Canada,1,4,0.0,3,7,-0.03941159097429747,53.42741538624881,2,The Social Warrior
+441,19,Female,Undergraduate,Spain,4.0,Instagram,Yes,7.9,6,Single,3,7,Spain,1,4,0.09999999999999964,3,7,-0.019443095476206537,53.8859137225224,2,The Social Warrior
+442,21,Male,Graduate,Denmark,2.8,Facebook,No,9.0,8,In Relationship,2,4,Denmark,0,2,-1.0,2,4,-1.4693597516880144,20.594253132867888,3,The Balanced User
+443,20,Female,Undergraduate,Ireland,3.7,TikTok,Yes,8.2,7,Single,3,6,Ireland,1,3,-0.1999999999999993,3,6,-0.47853514620710197,43.34466180513722,1,The Quiet Addict
+444,22,Male,Graduate,India,7.0,WhatsApp,Yes,5.3,5,In Relationship,4,8,India,1,5,2.7,4,8,1.1644524976915296,81.06944188772357,0,The Doomscroller
+445,19,Female,Undergraduate,Switzerland,2.7,Instagram,No,9.1,8,Single,2,4,Switzerland,0,2,-1.0999999999999996,2,4,-1.4893282471861053,20.13575479659429,3,The Balanced User
+446,21,Male,Graduate,Turkey,4.3,Instagram,Yes,7.9,6,Single,3,7,Turkey,1,4,0.09999999999999964,3,7,-0.019443095476206537,53.8859137225224,2,The Social Warrior
+447,20,Female,Undergraduate,USA,8.0,TikTok,Yes,4.3,5,In Relationship,4,9,USA,1,5,3.7,4,9,1.5304993839512535,89.47427581045243,0,The Doomscroller
+448,22,Male,Graduate,Mexico,6.8,WhatsApp,Yes,5.4,6,Single,3,7,Mexico,1,4,2.5999999999999996,3,7,0.4797692919760681,65.3483721293623,0,The Doomscroller
+449,19,Female,Undergraduate,France,3.3,Instagram,No,8.7,7,In Relationship,2,5,France,0,3,-0.6999999999999993,2,5,-1.0102677009571186,31.13550505025307,1,The Quiet Addict
+450,21,Male,Graduate,Canada,4.1,Instagram,Yes,8.1,6,Single,3,7,Canada,1,4,-0.09999999999999964,3,7,-0.05938008647238835,52.96891704997522,2,The Social Warrior
+451,20,Female,Undergraduate,Spain,3.9,TikTok,Yes,8.0,6,Single,3,7,Spain,1,4,0.0,3,7,-0.03941159097429747,53.42741538624881,2,The Social Warrior
+452,22,Male,Graduate,Denmark,2.7,Facebook,No,9.1,8,In Relationship,2,4,Denmark,0,2,-1.0999999999999996,2,4,-1.4893282471861053,20.13575479659429,3,The Balanced User
+453,19,Female,Undergraduate,Ireland,3.6,Instagram,Yes,8.3,7,Single,3,6,Ireland,1,3,-0.3000000000000007,3,6,-0.49850364170519323,42.88616346886362,1,The Quiet Addict
+454,21,Male,Graduate,India,7.1,WhatsApp,Yes,5.2,5,In Relationship,4,8,India,1,5,2.8,4,8,1.1844209931896204,81.52794022399716,0,The Doomscroller
+455,20,Female,Undergraduate,Switzerland,2.6,Instagram,No,9.2,8,Single,2,4,Switzerland,0,2,-1.1999999999999993,2,4,-1.5092967426841963,19.677256460320695,3,The Balanced User
+456,22,Male,Graduate,Turkey,4.2,TikTok,Yes,8.0,6,Single,3,7,Turkey,1,4,0.0,3,7,-0.03941159097429747,53.42741538624881,2,The Social Warrior
+457,19,Female,Undergraduate,USA,8.1,Instagram,Yes,4.2,5,In Relationship,4,9,USA,1,5,3.8,4,9,1.5504678794493445,89.93277414672602,0,The Doomscroller
+458,21,Male,Graduate,Mexico,6.9,WhatsApp,Yes,5.3,6,Single,3,7,Mexico,1,4,2.7,3,7,0.4997377874741592,65.8068704656359,0,The Doomscroller
+459,20,Female,Undergraduate,France,3.2,Instagram,No,8.8,7,In Relationship,2,5,France,0,3,-0.8000000000000007,2,5,-1.03023619645521,30.677006713979466,3,The Balanced User
+460,22,Male,Graduate,Canada,4.0,TikTok,Yes,8.2,6,Single,3,7,Canada,1,4,-0.1999999999999993,3,7,-0.07934858197047931,52.51041871370161,2,The Social Warrior
+461,19,Female,Undergraduate,Spain,3.8,Instagram,Yes,8.1,6,Single,3,7,Spain,1,4,-0.09999999999999964,3,7,-0.05938008647238835,52.96891704997522,2,The Social Warrior
+462,21,Male,Graduate,Denmark,2.6,Facebook,No,9.2,8,In Relationship,2,4,Denmark,0,2,-1.1999999999999993,2,4,-1.5092967426841963,19.677256460320695,3,The Balanced User
+463,20,Female,Undergraduate,Ireland,3.5,TikTok,Yes,8.4,7,Single,3,6,Ireland,1,3,-0.40000000000000036,3,6,-0.5184721372032841,42.42766513259003,1,The Quiet Addict
+464,22,Male,Graduate,India,7.2,WhatsApp,Yes,5.1,5,In Relationship,4,8,India,1,5,2.9000000000000004,4,8,1.2043894886877116,81.98643856027076,0,The Doomscroller
+465,19,Female,Undergraduate,Switzerland,2.5,Instagram,No,9.3,8,Single,2,4,Switzerland,0,2,-1.3000000000000007,2,4,-1.5292652381822875,19.218758124047095,3,The Balanced User
+466,21,Male,Graduate,Turkey,4.1,Instagram,Yes,8.1,6,Single,3,7,Turkey,1,4,-0.09999999999999964,3,7,-0.05938008647238835,52.96891704997522,2,The Social Warrior
+467,20,Female,Undergraduate,USA,8.2,TikTok,Yes,4.1,5,In Relationship,4,9,USA,1,5,3.9000000000000004,4,9,1.5704363749474355,90.39127248299963,0,The Doomscroller
+468,22,Male,Graduate,Mexico,7.0,WhatsApp,Yes,5.2,6,Single,3,7,Mexico,1,4,2.8,3,7,0.5197062829722501,66.2653688019095,0,The Doomscroller
+469,19,Female,Undergraduate,France,3.1,Instagram,No,8.9,7,In Relationship,2,5,France,0,3,-0.9000000000000004,2,5,-1.0502046919533008,30.21850837770587,3,The Balanced User
+470,21,Male,Graduate,Canada,3.9,Instagram,Yes,8.3,6,Single,3,7,Canada,1,4,-0.3000000000000007,3,7,-0.09931707746857055,52.05192037742802,2,The Social Warrior
+471,20,Female,Undergraduate,Spain,3.7,TikTok,Yes,8.2,6,Single,3,7,Spain,1,4,-0.1999999999999993,3,7,-0.07934858197047931,52.51041871370161,2,The Social Warrior
+472,22,Male,Graduate,Denmark,2.5,Facebook,No,9.3,8,In Relationship,2,4,Denmark,0,2,-1.3000000000000007,2,4,-1.5292652381822875,19.218758124047095,3,The Balanced User
+473,19,Female,Undergraduate,Ireland,3.4,Instagram,Yes,8.5,7,Single,3,6,Ireland,1,3,-0.5,3,6,-0.5384406327013751,41.96916679631643,1,The Quiet Addict
+474,21,Male,Graduate,India,7.3,WhatsApp,Yes,5.0,5,In Relationship,4,8,India,1,5,3.0,4,8,1.2243579841858026,82.44493689654435,0,The Doomscroller
+475,20,Female,Undergraduate,Switzerland,2.4,Instagram,No,9.4,8,Single,2,4,Switzerland,0,2,-1.4000000000000004,2,4,-1.5492337336803783,18.760259787773503,3,The Balanced User
+476,22,Male,Graduate,Turkey,4.0,TikTok,Yes,8.2,6,Single,3,7,Turkey,1,4,-0.1999999999999993,3,7,-0.07934858197047931,52.51041871370161,2,The Social Warrior
+477,19,Female,Undergraduate,USA,8.3,Instagram,Yes,4.0,5,In Relationship,4,9,USA,1,5,4.0,4,9,1.5904048704455265,90.84977081927322,0,The Doomscroller
+478,21,Male,Graduate,Mexico,7.1,WhatsApp,Yes,5.1,6,Single,3,7,Mexico,1,4,2.9000000000000004,3,7,0.5396747784703412,66.7238671381831,0,The Doomscroller
+479,20,Female,Undergraduate,France,3.0,Instagram,No,9.0,7,In Relationship,2,5,France,0,3,-1.0,2,5,-1.0701731874513918,29.760010041432277,3,The Balanced User
+480,22,Male,Graduate,Canada,3.8,TikTok,Yes,8.4,6,Single,3,7,Canada,1,4,-0.40000000000000036,3,7,-0.11928557296666145,51.593422041154426,2,The Social Warrior
+481,19,Female,Undergraduate,Spain,3.6,Instagram,Yes,8.3,6,Single,3,7,Spain,1,4,-0.3000000000000007,3,7,-0.09931707746857055,52.05192037742802,2,The Social Warrior
+482,21,Male,Graduate,Denmark,2.4,Facebook,No,9.4,8,In Relationship,2,4,Denmark,0,2,-1.4000000000000004,2,4,-1.5492337336803783,18.760259787773503,3,The Balanced User
+483,20,Female,Undergraduate,Ireland,3.3,TikTok,Yes,8.6,7,Single,3,6,Ireland,1,3,-0.5999999999999996,3,6,-0.558409128199466,41.510668460042844,1,The Quiet Addict
+484,22,Male,Graduate,India,7.4,WhatsApp,Yes,4.9,5,In Relationship,4,8,India,1,5,3.0999999999999996,4,8,1.2443264796838933,82.90343523281794,0,The Doomscroller
+485,19,Female,Undergraduate,Switzerland,2.3,Instagram,No,9.5,8,Single,2,4,Switzerland,0,2,-1.5,2,4,-1.5692022291784693,18.301761451499907,3,The Balanced User
+486,21,Male,Graduate,Turkey,3.9,Instagram,Yes,8.3,6,Single,3,7,Turkey,1,4,-0.3000000000000007,3,7,-0.09931707746857055,52.05192037742802,2,The Social Warrior
+487,20,Female,Undergraduate,USA,8.4,TikTok,Yes,3.9,5,In Relationship,4,9,USA,1,5,4.1,4,9,1.6103733659436175,91.30826915554681,0,The Doomscroller
+488,22,Male,Graduate,Mexico,7.2,WhatsApp,Yes,5.0,6,Single,3,7,Mexico,1,4,3.0,3,7,0.5596432739684322,67.18236547445669,0,The Doomscroller
+489,19,Female,Undergraduate,France,2.9,Instagram,No,9.1,7,In Relationship,2,5,France,0,3,-1.0999999999999996,2,5,-1.0901416829494825,29.30151170515869,3,The Balanced User
+490,21,Male,Graduate,Canada,3.7,Instagram,Yes,8.5,6,Single,3,7,Canada,1,4,-0.5,3,7,-0.13925406846475238,51.13492370488083,2,The Social Warrior
+491,20,Female,Undergraduate,Spain,3.5,TikTok,Yes,8.4,6,Single,3,7,Spain,1,4,-0.40000000000000036,3,7,-0.11928557296666145,51.593422041154426,2,The Social Warrior
+492,22,Male,Graduate,Denmark,2.3,Facebook,No,9.5,8,In Relationship,2,4,Denmark,0,2,-1.5,2,4,-1.5692022291784693,18.301761451499907,3,The Balanced User
+493,19,Female,Undergraduate,Ireland,3.2,Instagram,Yes,8.7,7,Single,3,6,Ireland,1,3,-0.6999999999999993,3,6,-0.5783776236975569,41.052170123769244,1,The Quiet Addict
+494,21,Male,Graduate,India,7.5,WhatsApp,Yes,4.8,5,In Relationship,4,8,India,1,5,3.2,4,8,1.2642949751819843,83.36193356909155,0,The Doomscroller
+495,20,Female,Undergraduate,Switzerland,2.2,Instagram,No,9.6,8,Single,2,4,Switzerland,0,2,-1.5999999999999996,2,4,-1.5891707246765603,17.843263115226314,3,The Balanced User
+496,22,Male,Graduate,Turkey,3.8,TikTok,Yes,8.4,6,Single,3,7,Turkey,1,4,-0.40000000000000036,3,7,-0.11928557296666145,51.593422041154426,2,The Social Warrior
+497,19,Female,Undergraduate,USA,8.5,Instagram,Yes,3.8,5,In Relationship,4,9,USA,1,5,4.2,4,9,1.6303418614417085,91.76676749182042,0,The Doomscroller
+498,21,Male,Graduate,Mexico,7.3,WhatsApp,Yes,4.9,6,Single,3,7,Mexico,1,4,3.0999999999999996,3,7,0.579611769466523,67.64086381073028,0,The Doomscroller
+499,20,Female,Undergraduate,France,2.8,Instagram,No,9.2,7,In Relationship,2,5,France,0,3,-1.1999999999999993,2,5,-1.1101101784475735,28.84301336888509,3,The Balanced User
+500,22,Male,Graduate,Canada,3.6,TikTok,Yes,8.6,6,Single,3,7,Canada,1,4,-0.5999999999999996,3,7,-0.1592225639628433,50.676425368607234,2,The Social Warrior
+501,19,Female,Undergraduate,Brazil,6.2,WhatsApp,Yes,6.3,6,Single,3,7,Other,1,4,1.7000000000000002,3,7,0.3000528324932493,61.22188710289994,2,The Social Warrior
+502,21,Male,Graduate,China,4.5,WeChat,No,7.8,7,In Relationship,2,5,China,0,3,0.20000000000000018,2,5,-0.8305512414742999,35.26199007671543,1,The Quiet Addict
+503,20,Female,Undergraduate,Netherlands,3.8,Instagram,No,8.2,8,Single,2,4,Other,0,2,-0.1999999999999993,2,4,-1.3096117877032865,24.262239823056657,3,The Balanced User
+504,22,Male,Graduate,New Zealand,4.7,Instagram,Yes,7.5,7,In Relationship,3,6,Other,1,3,0.5,3,6,-0.3387556777204652,46.55415015905239,1,The Quiet Addict
+505,19,Female,Undergraduate,Singapore,5.1,TikTok,Yes,7.0,6,Single,3,7,Other,1,4,1.0,3,7,0.1602733640066124,58.01239874898477,2,The Social Warrior
+506,21,Male,Graduate,Malaysia,5.5,WhatsApp,Yes,6.8,6,Single,3,7,Other,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+507,20,Female,Undergraduate,UAE,6.5,Instagram,Yes,6.5,5,In Relationship,4,8,Other,1,5,1.5,4,8,0.9248305517144376,75.5674618524404,0,The Doomscroller
+508,22,Male,Graduate,Poland,4.2,Facebook,No,7.9,7,Single,2,5,Poland,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+509,19,Female,Undergraduate,India,6.8,WhatsApp,Yes,6.0,5,In Relationship,4,8,India,1,5,2.0,4,8,1.0246730292048924,77.8599535338084,0,The Doomscroller
+510,21,Male,Graduate,Canada,4.8,Instagram,Yes,7.4,7,Single,3,6,Canada,1,3,0.5999999999999996,3,6,-0.31878718222237434,47.01264849532598,1,The Quiet Addict
+511,20,Female,Undergraduate,Brazil,6.1,Instagram,Yes,6.4,6,Single,3,7,Other,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+512,22,Male,Graduate,China,4.4,WeChat,No,7.9,7,In Relationship,2,5,China,0,3,0.09999999999999964,2,5,-0.850519736972391,34.803491740441835,1,The Quiet Addict
+513,19,Female,Undergraduate,Netherlands,3.7,TikTok,No,8.3,8,Single,2,4,Other,0,2,-0.3000000000000007,2,4,-1.3295802832013779,23.803741486783046,3,The Balanced User
+514,21,Male,Graduate,New Zealand,4.6,Instagram,Yes,7.6,7,In Relationship,3,6,Other,1,3,0.40000000000000036,3,6,-0.3587241732185562,46.09565182277879,1,The Quiet Addict
+515,20,Female,Undergraduate,Singapore,5.2,TikTok,Yes,6.9,6,Single,3,7,Other,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+516,22,Male,Graduate,Malaysia,5.6,WhatsApp,Yes,6.7,6,Single,3,7,Other,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+517,19,Female,Undergraduate,UAE,6.6,Instagram,Yes,6.4,5,In Relationship,4,8,Other,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+518,21,Male,Graduate,Poland,4.1,Facebook,No,8.0,7,Single,2,5,Poland,0,3,0.0,2,5,-0.8704882324704819,34.34499340416824,1,The Quiet Addict
+519,20,Female,Undergraduate,India,6.9,WhatsApp,Yes,5.9,5,In Relationship,4,8,India,1,5,2.0999999999999996,4,8,1.0446415247029834,78.318451870082,0,The Doomscroller
+520,22,Male,Graduate,Canada,4.7,TikTok,Yes,7.5,7,Single,3,6,Canada,1,3,0.5,3,6,-0.3387556777204652,46.55415015905239,1,The Quiet Addict
+521,19,Female,Undergraduate,Brazil,6.0,WhatsApp,Yes,6.5,6,Single,3,7,Other,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+522,21,Male,Graduate,China,4.3,WeChat,No,8.0,7,In Relationship,2,5,China,0,3,0.0,2,5,-0.8704882324704819,34.34499340416824,1,The Quiet Addict
+523,20,Female,Undergraduate,Netherlands,3.6,Instagram,No,8.4,8,Single,2,4,Other,0,2,-0.40000000000000036,2,4,-1.3495487786994687,23.34524315050946,3,The Balanced User
+524,22,Male,Graduate,New Zealand,4.5,Facebook,Yes,7.7,7,In Relationship,3,6,Other,1,3,0.2999999999999998,3,6,-0.3786926687166473,45.63715348650519,1,The Quiet Addict
+525,19,Female,Undergraduate,Singapore,5.3,TikTok,Yes,6.8,6,Single,3,7,Other,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+526,21,Male,Graduate,Malaysia,5.7,WhatsApp,Yes,6.6,6,Single,3,7,Other,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+527,20,Female,Undergraduate,UAE,6.7,Instagram,Yes,6.3,5,In Relationship,4,8,Other,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+528,22,Male,Graduate,Poland,4.0,Facebook,No,8.1,7,Single,2,5,Poland,0,3,-0.09999999999999964,2,5,-0.8904567279685729,33.88649506789464,1,The Quiet Addict
+529,19,Female,Undergraduate,India,7.0,WhatsApp,Yes,5.8,5,In Relationship,4,8,India,1,5,2.2,4,8,1.0646100202010744,78.7769502063556,0,The Doomscroller
+530,21,Male,Graduate,Canada,4.6,Instagram,Yes,7.6,7,Single,3,6,Canada,1,3,0.40000000000000036,3,6,-0.3587241732185562,46.09565182277879,1,The Quiet Addict
+531,20,Female,Undergraduate,Brazil,5.9,TikTok,Yes,6.6,6,Single,3,7,Other,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+532,22,Male,Graduate,China,4.2,WeChat,No,8.1,7,In Relationship,2,5,China,0,3,-0.09999999999999964,2,5,-0.8904567279685729,33.88649506789464,1,The Quiet Addict
+533,19,Female,Undergraduate,Netherlands,3.5,Instagram,No,8.5,8,Single,2,4,Other,0,2,-0.5,2,4,-1.3695172741975594,22.88674481423587,3,The Balanced User
+534,21,Male,Graduate,New Zealand,4.4,Facebook,Yes,7.8,7,In Relationship,3,6,Other,1,3,0.20000000000000018,3,6,-0.3986611642147382,45.178655150231606,1,The Quiet Addict
+535,20,Female,Undergraduate,Singapore,5.4,TikTok,Yes,6.7,6,Single,3,7,Other,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+536,22,Male,Graduate,Malaysia,5.8,WhatsApp,Yes,6.5,6,Single,3,7,Other,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+537,19,Female,Undergraduate,UAE,6.8,Instagram,Yes,6.2,5,In Relationship,4,8,Other,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+538,21,Male,Graduate,Poland,3.9,Facebook,No,8.2,7,Single,2,5,Poland,0,3,-0.1999999999999993,2,5,-0.9104252234666637,33.42799673162105,1,The Quiet Addict
+539,20,Female,Undergraduate,India,7.1,WhatsApp,Yes,5.7,5,In Relationship,4,8,India,1,5,2.3,4,8,1.0845785156991654,79.23544854262919,0,The Doomscroller
+540,22,Male,Graduate,Canada,4.5,TikTok,Yes,7.7,7,Single,3,6,Canada,1,3,0.2999999999999998,3,6,-0.3786926687166473,45.63715348650519,1,The Quiet Addict
+541,19,Female,Undergraduate,Brazil,5.8,WhatsApp,Yes,6.7,6,Single,3,7,Other,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+542,21,Male,Graduate,China,4.1,WeChat,No,8.2,7,In Relationship,2,5,China,0,3,-0.1999999999999993,2,5,-0.9104252234666637,33.42799673162105,1,The Quiet Addict
+543,20,Female,Undergraduate,Netherlands,3.4,Instagram,No,8.6,8,Single,2,4,Other,0,2,-0.5999999999999996,2,4,-1.3894857696956504,22.428246477962272,3,The Balanced User
+544,22,Male,Graduate,New Zealand,4.3,Instagram,Yes,7.9,7,In Relationship,3,6,Other,1,3,0.09999999999999964,3,6,-0.4186296597128293,44.720156813958006,1,The Quiet Addict
+545,19,Female,Undergraduate,Singapore,5.5,TikTok,Yes,6.6,6,Single,3,7,Other,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+546,21,Male,Graduate,Malaysia,5.9,WhatsApp,Yes,6.4,6,Single,3,7,Other,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+547,20,Female,Undergraduate,UAE,6.9,Instagram,Yes,6.1,5,In Relationship,4,8,Other,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+548,22,Male,Graduate,Poland,3.8,Facebook,No,8.3,7,Single,2,5,Poland,0,3,-0.3000000000000007,2,5,-0.9303937189647551,32.96949839534744,1,The Quiet Addict
+549,19,Female,Undergraduate,India,7.2,WhatsApp,Yes,5.6,5,In Relationship,4,8,India,1,5,2.4000000000000004,4,8,1.1045470111972566,79.69394687890278,0,The Doomscroller
+550,21,Male,Graduate,Canada,4.4,Instagram,Yes,7.8,7,Single,3,6,Canada,1,3,0.20000000000000018,3,6,-0.3986611642147382,45.178655150231606,1,The Quiet Addict
+551,20,Female,Undergraduate,Brazil,5.7,TikTok,Yes,6.8,6,Single,3,7,Other,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+552,22,Male,Graduate,China,4.0,WeChat,No,8.3,7,In Relationship,2,5,China,0,3,-0.3000000000000007,2,5,-0.9303937189647551,32.96949839534744,1,The Quiet Addict
+553,19,Female,Undergraduate,Netherlands,3.3,Instagram,No,8.7,8,Single,2,4,Other,0,2,-0.6999999999999993,2,4,-1.4094542651937414,21.969748141688676,3,The Balanced User
+554,21,Male,Graduate,New Zealand,4.2,Facebook,Yes,8.0,7,In Relationship,3,6,Other,1,3,0.0,3,6,-0.43859815521092016,44.26165847768441,1,The Quiet Addict
+555,20,Female,Undergraduate,Singapore,5.6,TikTok,Yes,6.5,6,Single,3,7,Other,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+556,22,Male,Graduate,Malaysia,6.0,WhatsApp,Yes,6.3,6,Single,3,7,Other,1,4,1.7000000000000002,3,7,0.3000528324932493,61.22188710289994,2,The Social Warrior
+557,19,Female,Undergraduate,UAE,7.0,Instagram,Yes,6.0,5,In Relationship,4,8,Other,1,5,2.0,4,8,1.0246730292048924,77.8599535338084,0,The Doomscroller
+558,21,Male,Graduate,Poland,3.7,Facebook,No,8.4,7,Single,2,5,Poland,0,3,-0.40000000000000036,2,5,-0.9503622144628459,32.51100005907385,1,The Quiet Addict
+559,20,Female,Undergraduate,India,7.3,WhatsApp,Yes,5.5,5,In Relationship,4,8,India,1,5,2.5,4,8,1.1245155066953474,80.15244521517637,0,The Doomscroller
+560,22,Male,Graduate,Canada,4.3,TikTok,Yes,7.9,7,Single,3,6,Canada,1,3,0.09999999999999964,3,6,-0.4186296597128293,44.720156813958006,1,The Quiet Addict
+561,19,Female,Undergraduate,Brazil,5.6,WhatsApp,Yes,6.9,6,Single,3,7,Other,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+562,21,Male,Graduate,China,3.9,WeChat,No,8.4,7,In Relationship,2,5,China,0,3,-0.40000000000000036,2,5,-0.9503622144628459,32.51100005907385,1,The Quiet Addict
+563,20,Female,Undergraduate,Netherlands,3.2,Instagram,No,8.8,8,Single,2,4,Other,0,2,-0.8000000000000007,2,4,-1.4294227606918328,21.51124980541507,3,The Balanced User
+564,22,Male,Graduate,New Zealand,4.1,Instagram,Yes,8.1,7,In Relationship,3,6,Other,1,3,-0.09999999999999964,3,6,-0.45856665070901104,43.80316014141082,1,The Quiet Addict
+565,19,Female,Undergraduate,Singapore,5.7,TikTok,Yes,6.4,6,Single,3,7,Other,1,4,1.5999999999999996,3,7,0.2800843369951582,60.76338876662635,2,The Social Warrior
+566,21,Male,Graduate,Malaysia,6.1,WhatsApp,Yes,6.2,6,Single,3,7,Other,1,4,1.7999999999999998,3,7,0.32002132799134025,61.680385439173534,2,The Social Warrior
+567,20,Female,Undergraduate,UAE,7.1,Instagram,Yes,5.9,5,In Relationship,4,8,Other,1,5,2.0999999999999996,4,8,1.0446415247029834,78.318451870082,0,The Doomscroller
+568,22,Male,Graduate,Poland,3.6,Facebook,No,8.5,7,Single,2,5,Poland,0,3,-0.5,2,5,-0.9703307099609368,32.05250172280026,1,The Quiet Addict
+569,19,Female,Undergraduate,India,7.4,WhatsApp,Yes,5.4,5,In Relationship,4,8,India,1,5,2.5999999999999996,4,8,1.1444840021934384,80.61094355144996,0,The Doomscroller
+570,21,Male,Graduate,Canada,4.2,Instagram,Yes,8.0,7,Single,3,6,Canada,1,3,0.0,3,6,-0.43859815521092016,44.26165847768441,1,The Quiet Addict
+571,20,Female,Undergraduate,Spain,6.1,Instagram,Yes,7.2,5,Single,4,7,Spain,1,5,0.7999999999999998,4,7,0.6186891519489864,68.53812293853234,2,The Social Warrior
+572,23,Male,Graduate,Denmark,3.8,Twitter,No,7.8,8,In Relationship,2,4,Denmark,0,2,0.20000000000000018,2,4,-1.2297378057109225,26.096233168151038,3,The Balanced User
+573,19,Female,Undergraduate,Ireland,5.5,TikTok,Yes,6.8,6,Single,4,8,Ireland,1,4,1.2000000000000002,4,8,0.6321004322623562,68.84606049504814,2,The Social Warrior
+574,22,Male,Graduate,India,7.2,Facebook,Yes,5.9,4,Single,5,9,India,1,6,2.0999999999999996,5,9,1.7093562349203537,93.58102329216965,0,The Doomscroller
+575,21,Female,Undergraduate,Switzerland,4.2,Instagram,No,7.5,7,In Relationship,2,5,Switzerland,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+576,24,Male,Graduate,Turkey,6.8,TikTok,Yes,6.2,5,Single,4,8,Turkey,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+577,20,Female,Undergraduate,USA,5.9,Instagram,Yes,6.7,6,In Relationship,3,7,USA,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+578,22,Male,Graduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8,Mexico,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+579,19,Female,Undergraduate,France,4.7,Twitter,No,7.4,7,Single,2,5,France,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+580,23,Male,Graduate,Canada,5.2,Instagram,Yes,7.0,6,In Relationship,3,6,Canada,1,4,1.0,3,6,-0.006088567272201778,54.192548188991864,2,The Social Warrior
+581,21,Female,Undergraduate,UK,6.3,TikTok,Yes,6.4,5,Single,4,8,UK,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+582,24,Male,Graduate,Italy,4.9,Facebook,No,7.3,7,In Relationship,2,5,Italy,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+583,20,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,5,Single,4,8,Russia,1,5,2.0,4,8,1.0246730292048924,77.8599535338084,0,The Doomscroller
+584,22,Male,Graduate,China,5.8,WeChat,Yes,6.5,6,In Relationship,3,7,China,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+585,19,Female,Undergraduate,Japan,4.5,Twitter,No,7.6,8,Single,2,4,Japan,0,2,0.40000000000000036,2,4,-1.1898008147147405,27.013229840698234,1,The Quiet Addict
+586,23,Male,Graduate,Poland,6.4,Facebook,Yes,6.3,5,Single,4,8,Poland,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+587,21,Female,Undergraduate,Finland,4.1,Instagram,No,7.7,7,In Relationship,2,5,Other,0,3,0.2999999999999998,2,5,-0.8105827459762089,35.72048841298903,1,The Quiet Addict
+588,24,Male,Graduate,Spain,6.6,TikTok,Yes,6.2,5,Single,4,8,Spain,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+589,20,Female,Undergraduate,Denmark,4.4,Instagram,No,7.4,7,In Relationship,2,5,Denmark,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+590,22,Male,Graduate,Ireland,5.7,Twitter,Yes,6.8,6,Single,3,7,Ireland,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+591,19,Female,Undergraduate,India,7.0,Instagram,Yes,5.8,4,Single,5,9,India,1,6,2.2,5,9,1.729324730418445,94.03952162844325,0,The Doomscroller
+592,23,Male,Graduate,Switzerland,4.3,Facebook,No,7.5,7,In Relationship,2,5,Switzerland,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+593,21,Female,Undergraduate,Turkey,6.9,TikTok,Yes,6.1,5,Single,4,8,Turkey,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+594,24,Male,Graduate,USA,5.6,Instagram,Yes,6.9,6,In Relationship,3,7,USA,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+595,20,Female,Undergraduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8,Mexico,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+596,21,Male,Undergraduate,France,5.8,Instagram,Yes,6.7,6,Single,3,7,France,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+597,23,Female,Graduate,Canada,4.9,TikTok,No,7.3,7,In Relationship,2,5,Canada,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+598,20,Male,Undergraduate,UK,6.4,Facebook,Yes,6.2,5,Single,4,8,UK,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+599,22,Female,Graduate,Italy,5.1,Twitter,No,7.1,7,In Relationship,2,5,Italy,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+600,19,Male,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,4,8,Russia,1,6,2.0,4,8,1.2574976621627012,83.2058598823799,0,The Doomscroller
+601,24,Female,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7,China,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+602,21,Male,Undergraduate,Japan,4.3,Twitter,No,7.6,8,Single,2,4,Japan,0,2,0.40000000000000036,2,4,-1.1898008147147405,27.013229840698234,1,The Quiet Addict
+603,23,Female,Graduate,Poland,6.2,Instagram,Yes,6.4,5,Single,4,8,Poland,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+604,20,Male,Undergraduate,Finland,4.5,Facebook,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+605,22,Female,Graduate,Spain,6.3,TikTok,Yes,6.3,5,Single,4,8,Spain,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+606,19,Male,Undergraduate,Denmark,4.7,Instagram,No,7.2,7,In Relationship,2,5,Denmark,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+607,24,Female,Graduate,Ireland,5.9,Twitter,Yes,6.6,6,Single,3,7,Ireland,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+608,21,Male,Undergraduate,India,7.1,Facebook,Yes,5.7,4,Single,5,9,India,1,6,2.3,5,9,1.7492932259165357,94.49801996471685,0,The Doomscroller
+609,23,Female,Graduate,Switzerland,4.4,Instagram,No,7.4,7,In Relationship,2,5,Switzerland,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+610,20,Male,Undergraduate,Turkey,6.6,TikTok,Yes,6.2,5,Single,4,8,Turkey,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+611,22,Female,Graduate,USA,5.4,Instagram,Yes,6.9,6,In Relationship,3,7,USA,1,4,1.0999999999999996,3,7,0.1802418595047033,58.470897085258365,2,The Social Warrior
+612,19,Male,Undergraduate,Mexico,6.5,Facebook,Yes,6.1,5,Single,4,8,Mexico,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+613,24,Female,Graduate,France,4.8,Twitter,No,7.3,7,In Relationship,2,5,France,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+614,21,Male,Undergraduate,Canada,5.7,Instagram,Yes,6.7,6,Single,3,7,Canada,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+615,23,Female,Graduate,UK,6.1,TikTok,Yes,6.4,5,Single,4,8,UK,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+616,20,Male,Undergraduate,Italy,4.6,Facebook,No,7.2,7,In Relationship,2,5,Italy,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+617,22,Female,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,Russia,1,6,2.0999999999999996,5,9,1.7093562349203537,93.58102329216965,0,The Doomscroller
+618,19,Male,Undergraduate,China,5.6,WeChat,Yes,6.8,6,In Relationship,3,7,China,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+619,24,Female,Graduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4,Japan,0,2,0.5,2,4,-1.1698323192166498,27.471728176971823,1,The Quiet Addict
+620,21,Male,Undergraduate,Poland,6.3,TikTok,Yes,6.3,5,Single,4,8,Poland,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+621,23,Female,Graduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.7506772594819361,37.09598342180981,1,The Quiet Addict
+622,20,Male,Undergraduate,Spain,6.5,Facebook,Yes,6.2,5,Single,4,8,Spain,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+623,22,Female,Graduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,Denmark,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+624,19,Male,Undergraduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7,Ireland,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+625,24,Female,Graduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9,India,1,6,2.2,5,9,1.729324730418445,94.03952162844325,0,The Doomscroller
+626,21,Male,Undergraduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,Switzerland,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+627,23,Female,Graduate,Turkey,6.7,Instagram,Yes,6.1,5,Single,4,8,Turkey,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+628,20,Male,Undergraduate,USA,5.5,Twitter,Yes,6.8,6,In Relationship,3,7,USA,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+629,22,Female,Graduate,Mexico,6.4,Facebook,Yes,6.2,5,Single,4,8,Mexico,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+630,19,Male,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5,France,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+631,24,Female,Graduate,Canada,5.6,TikTok,Yes,6.7,6,Single,3,7,Canada,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+632,21,Male,Undergraduate,UK,6.2,Facebook,Yes,6.3,5,Single,4,8,UK,1,5,1.7000000000000002,4,8,0.9647675427106195,76.4844585249876,0,The Doomscroller
+633,23,Female,Graduate,Italy,4.8,Twitter,No,7.1,7,In Relationship,2,5,Italy,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+634,20,Male,Undergraduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9,Russia,1,6,2.0999999999999996,5,9,1.7093562349203537,93.58102329216965,0,The Doomscroller
+635,22,Female,Graduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7,China,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+636,19,Male,Undergraduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4,Japan,0,2,0.5999999999999996,2,4,-1.1498638237185588,27.930226513245415,1,The Quiet Addict
+637,24,Female,Graduate,Poland,6.1,TikTok,Yes,6.4,5,Single,4,8,Poland,1,5,1.5999999999999996,4,8,0.9447990472125285,76.02596018871401,0,The Doomscroller
+638,21,Male,Undergraduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5,Other,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+639,23,Female,Graduate,Spain,6.4,Facebook,Yes,6.2,5,Single,4,8,Spain,1,5,1.7999999999999998,4,8,0.9847360382087105,76.94295686126121,0,The Doomscroller
+640,20,Male,Undergraduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5,Denmark,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+641,22,Female,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,Ireland,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+642,19,Male,Undergraduate,India,7.2,TikTok,Yes,5.7,4,Single,5,9,India,1,6,2.3,5,9,1.749293225916536,94.49801996471685,0,The Doomscroller
+643,24,Female,Graduate,Switzerland,4.6,Facebook,No,7.2,7,In Relationship,2,5,Switzerland,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+644,21,Male,Undergraduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8,Turkey,1,5,2.0,4,8,1.0246730292048927,77.8599535338084,0,The Doomscroller
+645,23,Female,Graduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7,USA,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+646,22,Male,Graduate,Mexico,6.3,Facebook,Yes,6.2,5,Single,4,8,Mexico,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+647,20,Female,Undergraduate,France,4.8,Instagram,No,7.1,7,In Relationship,2,5,France,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+648,23,Male,Graduate,Canada,5.7,TikTok,Yes,6.6,6,Single,3,7,Canada,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+649,21,Female,Undergraduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8,UK,1,5,1.7000000000000002,4,8,0.9647675427106197,76.4844585249876,0,The Doomscroller
+650,24,Male,Graduate,Italy,4.7,Facebook,No,7.2,7,In Relationship,2,5,Italy,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+651,19,Female,Undergraduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,Russia,1,6,2.0999999999999996,5,9,1.709356234920354,93.58102329216965,0,The Doomscroller
+652,22,Male,Graduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7,China,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+653,20,Female,Undergraduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4,Japan,0,2,0.5,2,4,-1.1698323192166495,27.471728176971826,1,The Quiet Addict
+654,23,Male,Graduate,Poland,6.2,TikTok,Yes,6.3,5,Single,4,8,Poland,1,5,1.7000000000000002,4,8,0.9647675427106197,76.4844585249876,0,The Doomscroller
+655,21,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.750677259481936,37.09598342180981,1,The Quiet Addict
+656,24,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8,Spain,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+657,19,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,Denmark,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+658,22,Male,Graduate,Ireland,5.8,Instagram,Yes,6.6,6,Single,3,7,Ireland,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+659,20,Female,Undergraduate,India,7.1,TikTok,Yes,5.8,4,Single,5,9,India,1,6,2.2,5,9,1.729324730418445,94.03952162844325,0,The Doomscroller
+660,23,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,Switzerland,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+661,21,Female,Undergraduate,Turkey,6.7,Instagram,Yes,6.0,5,Single,4,8,Turkey,1,5,2.0,4,8,1.0246730292048927,77.8599535338084,0,The Doomscroller
+662,24,Male,Graduate,USA,5.4,Twitter,Yes,6.8,6,In Relationship,3,7,USA,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+663,19,Female,Undergraduate,Mexico,6.4,TikTok,Yes,6.2,5,Single,4,8,Mexico,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+664,22,Male,Graduate,France,4.7,Facebook,No,7.2,7,In Relationship,2,5,France,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+665,20,Female,Undergraduate,Canada,5.6,Instagram,Yes,6.7,6,Single,3,7,Canada,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+666,23,Male,Graduate,UK,6.3,Twitter,Yes,6.2,5,Single,4,8,UK,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+667,21,Female,Undergraduate,Italy,4.8,TikTok,No,7.1,7,In Relationship,2,5,Italy,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+668,24,Male,Graduate,Russia,6.9,Instagram,Yes,5.9,4,Single,5,9,Russia,1,6,2.0999999999999996,5,9,1.709356234920354,93.58102329216965,0,The Doomscroller
+669,19,Female,Undergraduate,China,5.7,WeChat,Yes,6.7,6,In Relationship,3,7,China,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+670,22,Male,Graduate,Japan,4.4,Twitter,No,7.4,8,Single,2,4,Japan,0,2,0.5999999999999996,2,4,-1.1498638237185588,27.930226513245415,1,The Quiet Addict
+671,20,Female,Undergraduate,Poland,6.1,Facebook,Yes,6.4,5,Single,4,8,Poland,1,5,1.5999999999999996,4,8,0.9447990472125286,76.02596018871401,0,The Doomscroller
+672,23,Male,Graduate,Finland,4.3,Instagram,No,7.5,7,In Relationship,2,5,Other,0,3,0.5,2,5,-0.770645754980027,36.63748508553621,1,The Quiet Addict
+673,21,Female,Undergraduate,Spain,6.4,TikTok,Yes,6.2,5,Single,4,8,Spain,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+674,24,Male,Graduate,Denmark,4.5,Twitter,No,7.3,7,In Relationship,2,5,Denmark,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+675,19,Female,Undergraduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,Ireland,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+676,22,Male,Graduate,India,7.2,Facebook,Yes,5.7,4,Single,5,9,India,1,6,2.3,5,9,1.749293225916536,94.49801996471685,0,The Doomscroller
+677,20,Female,Undergraduate,Switzerland,4.6,TikTok,No,7.2,7,In Relationship,2,5,Switzerland,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+678,23,Male,Graduate,Turkey,6.8,Instagram,Yes,6.0,5,Single,4,8,Turkey,1,5,2.0,4,8,1.0246730292048927,77.8599535338084,0,The Doomscroller
+679,21,Female,Undergraduate,USA,5.3,Twitter,Yes,6.8,6,In Relationship,3,7,USA,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+680,24,Male,Graduate,Mexico,6.2,Facebook,Yes,6.3,5,Single,4,8,Mexico,1,5,1.7000000000000002,4,8,0.9647675427106197,76.4844585249876,0,The Doomscroller
+681,19,Female,Undergraduate,France,4.7,Instagram,No,7.2,7,In Relationship,2,5,France,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+682,22,Male,Graduate,Canada,5.8,TikTok,Yes,6.6,6,Single,3,7,Canada,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+683,20,Female,Undergraduate,UK,6.1,Twitter,Yes,6.4,5,Single,4,8,UK,1,5,1.5999999999999996,4,8,0.9447990472125286,76.02596018871401,0,The Doomscroller
+684,23,Male,Graduate,Italy,4.8,Facebook,No,7.1,7,In Relationship,2,5,Italy,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+685,21,Female,Undergraduate,Russia,6.7,Instagram,Yes,6.0,4,Single,5,9,Russia,1,6,2.0,5,9,1.689387739422263,93.12252495589605,0,The Doomscroller
+686,24,Male,Graduate,China,5.5,WeChat,Yes,6.8,6,In Relationship,3,7,China,1,4,1.2000000000000002,3,7,0.20021035500279438,58.92939542153196,2,The Social Warrior
+687,19,Female,Undergraduate,Japan,4.2,Twitter,No,7.5,8,Single,2,4,Japan,0,2,0.5,2,4,-1.1698323192166495,27.471728176971826,1,The Quiet Addict
+688,22,Male,Graduate,Poland,6.3,TikTok,Yes,6.2,5,Single,4,8,Poland,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+689,20,Female,Undergraduate,Finland,4.4,Instagram,No,7.4,7,In Relationship,2,5,Other,0,3,0.5999999999999996,2,5,-0.750677259481936,37.09598342180981,1,The Quiet Addict
+690,23,Male,Graduate,Spain,6.5,Facebook,Yes,6.1,5,Single,4,8,Spain,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+691,21,Female,Undergraduate,Denmark,4.6,Twitter,No,7.3,7,In Relationship,2,5,Denmark,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+692,24,Male,Graduate,Ireland,5.9,Instagram,Yes,6.5,6,Single,3,7,Ireland,1,4,1.5,3,7,0.2601158414970673,60.30489043035274,2,The Social Warrior
+693,19,Female,Undergraduate,India,7.0,TikTok,Yes,5.8,4,Single,5,9,India,1,6,2.2,5,9,1.729324730418445,94.03952162844325,0,The Doomscroller
+694,22,Male,Graduate,Switzerland,4.5,Facebook,No,7.3,7,In Relationship,2,5,Switzerland,0,3,0.7000000000000002,2,5,-0.730708763983845,37.554481758083405,1,The Quiet Addict
+695,20,Female,Undergraduate,Turkey,6.6,Instagram,Yes,6.1,5,Single,4,8,Turkey,1,5,1.9000000000000004,4,8,1.0047045337068017,77.4014551975348,0,The Doomscroller
+696,23,Male,Graduate,USA,5.5,Twitter,Yes,6.7,6,In Relationship,3,7,USA,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+697,21,Female,Undergraduate,Mexico,6.3,TikTok,Yes,6.2,5,Single,4,8,Mexico,1,5,1.7999999999999998,4,8,0.9847360382087106,76.94295686126121,0,The Doomscroller
+698,24,Male,Graduate,France,4.8,Facebook,No,7.1,7,In Relationship,2,5,France,0,3,0.9000000000000004,2,5,-0.690771772987663,38.471478430630604,1,The Quiet Addict
+699,19,Female,Undergraduate,Canada,5.7,Instagram,Yes,6.6,6,Single,3,7,Canada,1,4,1.4000000000000004,3,7,0.2401473459989764,59.84639209407915,2,The Social Warrior
+700,22,Male,Graduate,UK,6.2,Twitter,Yes,6.3,5,Single,4,8,UK,1,5,1.7000000000000002,4,8,0.9647675427106197,76.4844585249876,0,The Doomscroller
+701,20,Female,Undergraduate,Italy,4.7,TikTok,No,7.2,7,In Relationship,2,5,Italy,0,3,0.7999999999999998,2,5,-0.710740268485754,38.012980094357005,1,The Quiet Addict
+702,23,Male,Graduate,Russia,6.8,Instagram,Yes,5.9,4,Single,5,9,Russia,1,6,2.0999999999999996,5,9,1.709356234920354,93.58102329216965,0,The Doomscroller
+703,21,Female,Undergraduate,China,5.6,WeChat,Yes,6.7,6,In Relationship,3,7,China,1,4,1.2999999999999998,3,7,0.22017885050088531,59.38789375780556,2,The Social Warrior
+704,24,Male,Graduate,Japan,4.3,Twitter,No,7.5,8,Single,2,4,Japan,0,2,0.5,2,4,-1.1698323192166495,27.471728176971826,1,The Quiet Addict
+705,19,Female,Undergraduate,Poland,6.2,Facebook,Yes,6.3,5,Single,4,8,Poland,1,5,1.7000000000000002,4,8,0.9647675427106197,76.4844585249876,0,The Doomscroller
